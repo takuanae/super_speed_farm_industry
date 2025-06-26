@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+    	"north": "farmindustry:block/auto_farm_tier4_front",
+    	"east": "farmindustry:block/auto_farm_tier4_back",
+    	"south": "farmindustry:block/auto_farm_tier4_back",
+    	"west": "farmindustry:block/auto_farm_tier4_back",
+    	"up": "farmindustry:block/auto_farm_tier4_top",
+    	"down": "farmindustry:block/auto_farm_tier4_bottom",
+    	"particle": "farmindustry:block/auto_farm_tier4_top"
+    }
+}

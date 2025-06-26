@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+    	"north": "farmindustry:block/compresser_front",
+    	"east": "farmindustry:block/compresser_side",
+    	"south": "farmindustry:block/compresser_side",
+    	"west": "farmindustry:block/compresser_side",
+    	"up": "farmindustry:block/compresser_top",
+    	"down": "farmindustry:block/compresser_bottom",
+    	"particle": "farmindustry:block/compresser_top"
+    }
+}

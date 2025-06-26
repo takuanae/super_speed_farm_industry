@@ -1,0 +1,75 @@
+{
+  "name": {
+    "text": "Valine 3g Gas Generator"
+  },
+  "appearance": {
+"block": "farmindustry:machine/valine_gen",
+"light": 15,
+"tool_type": ["minecraft:mineable/pickaxe","forge:mineable/paxel"],
+"mining_level": "minecraft:needs_wood_tool",
+"hardness": 1.5,
+"resistance": 500,
+"requires_tool": false
+  },
+
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "id":"energy1",
+      "capacity": 93372036856775808,
+      "maxInput": 0,
+      "config": {
+        "default": "output"
+      }
+    },
+    {
+      "type": "custommachinery:gas",
+      "id":"gas1",
+      "capacity": 1000,
+      "maxInput":1000,
+      "maxOutput": 0,
+      "config": {
+        "default": "input"
+      }
+    }
+  ],
+  "gui": [
+  {
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 33,
+      "y": 0,
+      "width": 178,
+      "type": "custommachinery:texture"
+  },
+    {
+      "x": 77,
+      "y": 25,
+      "type": "custommachinery:gas",
+      "id": "gas1"
+  },  	
+  {
+    "x": 149,
+    "y": 25,
+    "type": "custommachinery:energy",
+    "id": "energy1"
+  },  	
+    {
+      "type": "custommachinery:config",
+      "x": 10,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 41,
+      "y": 85  
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 43,
+      "y": 7,
+      "text": {
+        "text": "Valine Gas Genetor"
+      }
+    }
+  ]
+}

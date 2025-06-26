@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+    	"north": "farmindustry:block/super_mixer_front",
+    	"east": "farmindustry:block/super_mixer_side",
+    	"south": "farmindustry:block/super_mixer_side",
+    	"west": "farmindustry:block/super_mixer_side",
+    	"up": "farmindustry:block/super_mixer_top",
+    	"down": "farmindustry:block/super_mixer_bottom",
+    	"particle": "farmindustry:block/super_mixer_top"
+    }
+}

@@ -1,0 +1,195 @@
+{
+    "name": "Auto Cooking Pot",
+    "appearance": {
+        "block": "farmindustry:machine/auto_cooking_pot",
+        "tool_type": ["minecraft:mineable/pickaxe","forge:mineable/paxel"],
+        "hardness": 1.5,
+        "resistance": 500,
+        "requires_tool": false
+    },
+    "tooltips": [],
+    "components": [
+        {
+            "capacity": 64000,
+            "type": "custommachinery:energy",
+            "id": "energy",
+            "maxOutput": 0
+        },
+        {
+            "mode": "input",
+            "id": "fluidinput",
+            "capacity": 64000,
+            "type": "custommachinery:fluid",
+            "config": {
+              "default": "none"
+            }
+        }, 
+        {
+            "mode": "input",
+            "id": "input1",
+            "capacity": 64,
+            "type": "custommachinery:item",
+            "config": {
+              "default": "none"
+            }
+        }, 
+        {
+            "mode": "input",
+            "id": "input2",
+            "capacity": 64,
+            "type": "custommachinery:item",
+            "config": {
+              "default": "none"
+            }
+        }, 
+        {
+            "mode": "input",
+            "id": "input3",
+            "capacity": 64,
+            "type": "custommachinery:item",
+            "config": {
+              "default": "none"
+            }
+        }, 
+        {
+            "mode": "input",
+            "id": "input4",
+            "capacity": 64,
+            "type": "custommachinery:item",
+            "config": {
+              "default": "none"
+            }
+        }, 
+        {
+            "mode": "input",
+            "id": "input5",
+            "capacity": 64,
+            "type": "custommachinery:item",
+            "config": {
+              "default": "none"
+            }
+        }, 
+        {
+            "mode": "input",
+            "id": "input6",
+            "capacity": 64,
+            "type": "custommachinery:item",
+            "config": {
+              "default": "none"
+            }
+        }, 
+        {
+            "mode": "input",
+            "id": "bowl",
+            "capacity": 64,
+            "type": "custommachinery:item",
+            "config": {
+              "default": "none"
+            }
+        },
+        {
+            "mode": "output",
+            "id": "output1",
+            "capacity": 64,
+            "type": "custommachinery:item",
+            "config": {
+              "default": "output"
+            }
+        }
+    ],
+    "gui": [
+    {
+        "texture": "custommachinery:textures/gui/base_background.png",
+        "x": 33,
+        "y": 0,
+        "width": 178,
+        "type": "custommachinery:texture"
+    },
+    {
+        "type": "custommachinery:config",
+        "x": 10,
+        "y": 0
+    },
+    {
+        "type": "custommachinery:player_inventory",
+        "x": 41,
+        "y": 85  
+    },
+    {
+        "x": 41,
+        "y": 25,
+        "type": "custommachinery:energy",
+        "id": "energy"
+    },
+    {
+        "x": 68,
+        "y": 64,
+        "type": "custommachinery:fluid",
+        "id": "fluidinput",
+        "texture":"farmindustry:textures/gui/long_fluid_storage.png",
+        "height": 9,
+        "width": 54
+    },
+    {
+        "x": 68,
+        "y": 19,
+        "type": "custommachinery:slot",
+        "id": "input1"
+    },
+    {
+        "x": 86,
+        "y": 19,
+        "type": "custommachinery:slot",
+        "id": "input2"
+    },
+    {
+        "x": 104,
+        "y": 19,
+        "type": "custommachinery:slot",
+        "id": "input3"
+    }, 
+    {
+        "x": 68,
+        "y": 37,
+        "type": "custommachinery:slot",
+        "id": "input4"
+    }, 
+    {
+        "x": 86,
+        "y": 37,
+        "type": "custommachinery:slot",
+        "id": "input5"
+    }, 
+    {
+        "x": 104,
+        "y": 37,
+        "type": "custommachinery:slot",
+        "id": "input6"
+    },  
+    {
+        "x": 131,
+        "y": 56,
+        "type": "custommachinery:slot",
+        "id": "bowl"
+    },  
+     {
+        "id": "output1",
+        "x": 157,
+        "y": 28,
+        "type": "custommachinery:slot"
+    }, 
+    {
+        "x": 128,
+        "y": 28,
+        "type": "custommachinery:progress"
+    },
+	{
+        "text": "Auto Cooking Pot",
+        "x": 43,
+        "y": 7,
+        "type": "custommachinery:text"
+    }
+    ],
+    "jei": [],
+    "catalysts": []
+}

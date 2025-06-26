@@ -1,0 +1,178 @@
+{
+    "name": "Auto Farm Tier5",
+    "appearance": {
+        "block": "farmindustry:machine/auto_farm_tier5",
+        "light": 14,
+                "tool_type": ["minecraft:mineable/pickaxe","forge:mineable/paxel"],
+        "hardness": 1.5,
+        "resistance": 500,
+        "requires_tool": false
+    },
+    "tooltips": [],
+    "components": [
+        {
+            "capacity": 2147483647,
+            "type": "custommachinery:energy",
+            "id": "energy",
+            "maxOutput": 0
+        },
+        {
+            "mode": "input",
+            "id": "fluid1",
+            "capacity": 8000,
+            "type": "custommachinery:fluid",
+            "config": {
+              "default": "input"
+            }
+        },    
+        {
+            "mode": "input",
+            "id": "input1",
+            "capacity": 1,
+            "type": "custommachinery:item",
+            "config": {
+              "default": "none"
+            }
+        }, 
+        {
+            "mode": "output",
+            "id": "output1",
+            "capacity": 64,
+            "type": "custommachinery:item",
+            "config": {
+              "default": "output"
+            }
+        },
+        {
+            "mode": "output",
+            "id": "output2",
+            "capacity": 64,
+            "type": "custommachinery:item",
+            "config": {
+              "default": "output"
+            }
+        },
+        {
+            "mode": "output",
+            "id": "output3",
+            "capacity": 64,
+            "type": "custommachinery:item",
+            "config": {
+              "default": "output"
+            }
+        },
+        {
+            "mode": "output",
+            "id": "output4",
+            "capacity": 64,
+            "type": "custommachinery:item",
+            "config": {
+              "default": "output"
+            }
+        },
+        {
+            "mode": "output",
+            "id": "output5",
+            "capacity": 64,
+            "type": "custommachinery:item",
+            "config": {
+              "default": "output"
+            }
+        },
+        {
+            "mode": "output",
+            "id": "output6",
+            "capacity": 64,
+            "type": "custommachinery:item",
+            "config": {
+              "default": "output"
+            }
+        }
+    ],
+    "gui": [
+    {
+        "type": "custommachinery:config",
+        "x": 10,
+        "y": 0
+    },
+    {
+        "texture": "custommachinery:textures/gui/base_background.png",
+        "x": 33,
+        "y": 0,
+        "width": 178,
+        "type": "custommachinery:texture"
+    },
+    {
+        "type": "custommachinery:player_inventory",
+        "x": 41,
+        "y": 85  
+    },
+    {
+        "x": 41,
+        "y": 25,
+        "type": "custommachinery:energy",
+        "id": "energy"
+    },
+    {
+        "x": 59,
+        "y": 25,
+        "type": "custommachinery:fluid",
+        "id": "fluid1"
+    },  	
+    {
+        "x": 77,
+        "y": 37,
+        "type": "custommachinery:slot",
+        "id": "input1"
+    },  
+     {
+        "id": "output1",
+        "x": 131,
+        "y": 28,
+        "type": "custommachinery:slot"
+    }, 
+    {
+        "type": "custommachinery:slot",
+        "x": 149,
+        "y": 28,
+        "id": "output2"
+    },
+    {
+        "id": "output3",
+        "x": 167,
+        "y": 28,
+        "type": "custommachinery:slot"
+    }, 
+    {
+        "type": "custommachinery:slot",
+        "x": 131,
+        "y": 46,
+        "id": "output4"
+    },
+    {
+        "id": "output5",
+        "x": 149,
+        "y": 46,
+        "type": "custommachinery:slot"
+    }, 
+    {
+        "type": "custommachinery:slot",
+        "x": 167,
+        "y": 46,
+        "id": "output6"
+    },
+    {
+        "x": 95,
+        "y": 37,
+        "type": "custommachinery:progress"
+    },
+	{
+        "text": "Auto Farm Tier5",
+        "x": 43,
+        "y": 7,
+        "type": "custommachinery:text"
+    }
+    ],
+    "jei": [],
+    "catalysts": []
+}

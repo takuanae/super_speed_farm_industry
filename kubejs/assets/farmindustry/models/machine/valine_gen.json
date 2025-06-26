@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+    	"north": "farmindustry:block/valine_gen_front",
+    	"east": "farmindustry:block/valine_gen_side",
+    	"south": "farmindustry:block/valine_gen_side",
+    	"west": "farmindustry:block/valine_gen_side",
+    	"up": "farmindustry:block/valine_gen_top",
+    	"down": "farmindustry:block/valine_gen_top",
+    	"particle": "farmindustry:block/valine_gen_front"
+    }
+}
