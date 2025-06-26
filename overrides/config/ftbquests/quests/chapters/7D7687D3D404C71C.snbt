@@ -1,0 +1,370 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7D7687D3D404C71C"
+	group: "2E3A98862FC167C5"
+	id: "7D7687D3D404C71C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&l&o&nすべての源&r"]
+			id: "5BB5AA068C9F6A42"
+			tasks: [{
+				id: "08778896DE959321"
+				item: "minecraft:hay_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BB5AA068C9F6A42"]
+			id: "704690F31893E904"
+			tasks: [{
+				id: "6A9253E56C840B17"
+				item: "minecraft:pumpkin_seeds"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5BB5AA068C9F6A42"]
+			id: "6E4A49DB5A183F34"
+			tasks: [{
+				id: "48FA73FFC5E9474B"
+				item: "minecraft:melon_seeds"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5BB5AA068C9F6A42"]
+			id: "1D35995EFD906892"
+			tasks: [{
+				id: "3F9EE55FC6688675"
+				item: "minecraft:beetroot_seeds"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5BB5AA068C9F6A42"]
+			id: "42EE3C3A5F3B833F"
+			tasks: [{
+				id: "35C5E0CB7DB7BA2C"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5BB5AA068C9F6A42"]
+			id: "4C3B26D2BB6B82FC"
+			tasks: [{
+				id: "4ECD4A612214B635"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5BB5AA068C9F6A42"]
+			id: "792C33DD723063C1"
+			tasks: [{
+				id: "36CEE15A636FA963"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5BB5AA068C9F6A42"]
+			id: "07A03B70E540C23B"
+			tasks: [{
+				id: "2B26B2C25A186A45"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5BB5AA068C9F6A42"]
+			id: "0BBE295902F77F8E"
+			tasks: [{
+				id: "29F17FFBD2A583CE"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5BB5AA068C9F6A42"]
+			id: "6C290A3FC441DA34"
+			tasks: [{
+				id: "0402406A7954CC7C"
+				item: "minecraft:kelp"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5BB5AA068C9F6A42"]
+			id: "1812FF84B194C2C2"
+			tasks: [{
+				id: "65D3491D2D8C711B"
+				item: "minecraft:glow_berries"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5BB5AA068C9F6A42"]
+			id: "2D81112243810EC5"
+			tasks: [{
+				id: "18E120068946ED51"
+				item: "farmersdelight:tomato_seeds"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5BB5AA068C9F6A42"]
+			id: "5179983433E8C7C9"
+			tasks: [{
+				id: "31F33C5835E87EBD"
+				item: "farmersdelight:onion"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5BB5AA068C9F6A42"]
+			id: "629A65086F62018E"
+			tasks: [{
+				id: "2FF0C53481334691"
+				item: "farmersdelight:rice"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5BB5AA068C9F6A42"]
+			id: "48B4EFB04EBC2CB4"
+			tasks: [{
+				id: "21B8B87A2D032B91"
+				item: "farmersdelight:cabbage_seeds"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["704690F31893E904"]
+			id: "2AA4701566A4EAD6"
+			tasks: [{
+				id: "49DB3D17117733CB"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6E4A49DB5A183F34"]
+			id: "7EB8BCCE0CE6793A"
+			tasks: [{
+				id: "22E764D270C87EA3"
+				item: "minecraft:melon"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1D35995EFD906892"]
+			id: "79328D870597CC55"
+			tasks: [{
+				id: "4D832FE2C601EDCB"
+				item: "minecraft:beetroot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D81112243810EC5"]
+			id: "248CA77F5B63F730"
+			tasks: [{
+				id: "53A0A5972FA4E38A"
+				item: "farmersdelight:tomato"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["629A65086F62018E"]
+			id: "66A88ABB6C2F84F1"
+			tasks: [{
+				id: "6BCCF3DF7972C44B"
+				item: "farmersdelight:rice_panicle"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["48B4EFB04EBC2CB4"]
+			description: ["高タンパク野菜、らしい"]
+			id: "0060CE90BE353DF7"
+			tasks: [{
+				id: "0A1BE345B0F1E808"
+				item: "farmersdelight:cabbage"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0060CE90BE353DF7"]
+			id: "042E205D0BAF6610"
+			tasks: [{
+				id: "3B7A6F390ABDFF31"
+				item: "farmersdelight:cabbage_crate"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["042E205D0BAF6610"]
+			id: "3CAED40EE413AB03"
+			tasks: [
+				{
+					id: "1E09D2F8260F90AF"
+					item: "minecraft:beef"
+					type: "item"
+				}
+				{
+					id: "36511F747D97F7A2"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["042E205D0BAF6610"]
+			id: "4BBB61A437798B58"
+			tasks: [{
+				id: "74A0F3585E81D429"
+				item: "minecraft:porkchop"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["042E205D0BAF6610"]
+			id: "6C561D5F3D6171F4"
+			tasks: [
+				{
+					id: "7A7A1466B88FE9ED"
+					item: "minecraft:mutton"
+					type: "item"
+				}
+				{
+					id: "2000CE12AA495A7D"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["042E205D0BAF6610"]
+			id: "2D3744AC7BAF8381"
+			tasks: [
+				{
+					id: "0044EF391E408C09"
+					item: "minecraft:chicken"
+					type: "item"
+				}
+				{
+					id: "02FF99E426A48DC5"
+					item: "minecraft:feather"
+					type: "item"
+				}
+				{
+					id: "60EBF8C62506D652"
+					item: "minecraft:egg"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["042E205D0BAF6610"]
+			id: "2BF662C156A5B616"
+			tasks: [
+				{
+					id: "476F40D8D83D320F"
+					item: "minecraft:rabbit"
+					type: "item"
+				}
+				{
+					id: "108F6FF788CD28CC"
+					item: "minecraft:rabbit_hide"
+					type: "item"
+				}
+				{
+					id: "2B52F340A450CF37"
+					item: "minecraft:rabbit_foot"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["042E205D0BAF6610"]
+			id: "12339AF4AB7E1EDB"
+			tasks: [{
+				id: "3FB605B6902597DF"
+				item: "minecraft:salmon"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["042E205D0BAF6610"]
+			id: "6B3CAED3C5E253E3"
+			tasks: [{
+				id: "56AE4D37EE72C387"
+				item: "minecraft:cod"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -11.5d
+		}
+	]
+	title: "素材集め"
+}

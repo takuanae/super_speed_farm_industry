@@ -1,0 +1,288 @@
+{
+	autofocus_id: "4F934D53F3EFF0DE"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4CE52BC8099505A1"
+	group: ""
+	id: "4CE52BC8099505A1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4F934D53F3EFF0DE"
+			tasks: [{
+				id: "2D9C4351413EE5B9"
+				title: "ようこそ"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F934D53F3EFF0DE"]
+			id: "68E340A8C42CC1A7"
+			tasks: [{
+				id: "2B4E891BC3385452"
+				title: "コンセプト"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["68E340A8C42CC1A7"]
+			id: "0F1E0B247F7B3BD1"
+			tasks: [{
+				id: "7FE7970BBC08BDD5"
+				title: "MODpack-jam"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["68E340A8C42CC1A7"]
+			description: [
+				"序盤を放置せずに乗り越えるために重要なアイテムです、しっかりと頭の片隅に段ボールに入れておいておきましょう。"
+				"右手に持って作物から15ブロック以内にいると早く作物が成長します。"
+			]
+			id: "64F711680EEA3A54"
+			rewards: [{
+				id: "388531229B3078DB"
+				item: "ring_of_growth:ring_of_growth"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B0BBA297F6015E2"
+				title: "成長の指輪"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["68E340A8C42CC1A7"]
+			description: ["ピースフル"]
+			id: "160534EBC68D574F"
+			tasks: [{
+				id: "6BD9AA3133D9E1F2"
+				title: "難易度"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["68E340A8C42CC1A7"]
+			id: "64B5B87CC791EC03"
+			tasks: [{
+				id: "3BD5C75ABCE0881A"
+				title: "歯車型のクエスト"
+				type: "checkmark"
+			}]
+			title: "歯車型のクエスト"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["68E340A8C42CC1A7"]
+			id: "2FEEE1D52E3E3643"
+			tasks: [{
+				id: "508335998C4D479C"
+				title: "もちのろんでクエストはあります"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0F1E0B247F7B3BD1"
+				"2FEEE1D52E3E3643"
+				"64F711680EEA3A54"
+				"64B5B87CC791EC03"
+				"160534EBC68D574F"
+			]
+			id: "459563E895149D89"
+			rewards: [{
+				count: 32
+				id: "7D76E320AED18305"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "69CC5BE384E79867"
+				title: "がんばぇーー"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "052E2B829B8F9F12"
+			tasks: [{
+				id: "49E6C265DA337D0D"
+				title: "設定"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "5C6430FFE78D9993"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/gamerule doDaylightCycle false"
+					exclude_from_claim_all: true
+					id: "065F0E4F059709CC"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/time set day"
+					exclude_from_claim_all: true
+					id: "65163AB32B10822B"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "342F05B1FF6AF941"
+				title: "常に昼間"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5C6430FFE78D9993"]
+			id: "7E799E22EF724B61"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamerule doDaylightCycle true"
+				exclude_from_claim_all: true
+				id: "0DBE55CB8EB4EB8B"
+				type: "command"
+			}]
+			tasks: [{
+				id: "028019A10830938A"
+				title: "解除"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5C6430FFE78D9993"]
+			id: "1C836D716A908916"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/ftbquests change_progress @s reset 5C6430FFE78D9993"
+					exclude_from_claim_all: true
+					id: "759AFCAA532EA178"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/ftbquests change_progress @s reset 7E799E22EF724B61"
+					exclude_from_claim_all: true
+					id: "7FCF8E146B7F7B88"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/ftbquests change_progress @s reset 1C836D716A908916"
+					exclude_from_claim_all: true
+					id: "784D79C4F941A17A"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "363ED3E818D226D7"
+				title: "リセット"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4F35FEAFB0F7C0B4"]
+			id: "0236FB138CFD2EB8"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/ftbquests change_progress @s reset 4F35FEAFB0F7C0B4"
+					exclude_from_claim_all: true
+					id: "77BA53F65B11BDA9"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/ftbquests change_progress @s reset 338ED0A5457FFE84"
+					exclude_from_claim_all: true
+					id: "7D7576EA1B3E0A7D"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/ftbquests change_progress @s reset 0236FB138CFD2EB8"
+					exclude_from_claim_all: true
+					id: "030260E3406021DE"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "1E239D7EFD2D3FF7"
+				title: "リセット"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4F35FEAFB0F7C0B4"]
+			id: "338ED0A5457FFE84"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamerule doWeatherCycle true"
+				exclude_from_claim_all: true
+				id: "5C2F64D577385727"
+				type: "command"
+			}]
+			tasks: [{
+				id: "7517AABC9F387851"
+				title: "解除"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			id: "4F35FEAFB0F7C0B4"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/gamerule doWeatherCycle false"
+					id: "031537AAA8ECD7EF"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/weather clear"
+					id: "5897B91D5028A23B"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "5D76B390F88CD716"
+				title: "常に晴天"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+	]
+	title: "はじめに"
+}

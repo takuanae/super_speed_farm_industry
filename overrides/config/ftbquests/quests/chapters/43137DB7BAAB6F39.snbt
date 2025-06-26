@@ -1,0 +1,1233 @@
+{
+	autofocus_id: "1DB500C492207EA5"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "43137DB7BAAB6F39"
+	group: "60A9419FADC63A29"
+	id: "43137DB7BAAB6F39"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["350015CB5A4046A5"]
+			description: ["さぁ、始まりましたチャプター２。今回も頑張っていきましょう！"]
+			id: "1DB500C492207EA5"
+			tasks: [{
+				id: "331FFB6801E2E774"
+				title: "チャプター2の、始まり始まり～"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37DDFFFBAE416FA3"]
+			description: [
+				"エンリッチするチャンバーです。私も中にはいったらリッチになれるかな?　"
+				""
+				"＜ﾆｭﾜｧｧｧｧｧｧｧ!!!!..."
+			]
+			id: "0ABF98E3CEA3311F"
+			rewards: [
+				{
+					count: 16
+					id: "4DBA115DC1C401EF"
+					item: {
+						Count: 1
+						id: "minecraft:golden_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "295900C476630A06"
+					item: {
+						Count: 1
+						id: "minecraft:golden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0EAC42C4E774EE0C"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0ABF98E3CEA3311F"]
+			description: [
+				"エンリッチする機械にいれると何故か吹き込みガスになる量が８倍に増える。科学の力ってすげー！"
+				""
+				"本当はココア豆にする予定だったのですがレシピの都合上クッキーをエンリッチすることになりました。クッキーのほうがアイテム1つあたりの効率がいいから許して"
+			]
+			id: "3B82DF29FA452670"
+			rewards: [{
+				count: 8
+				id: "2BF01FFB44E0151A"
+				item: "farmindustry:enriched_cocoa_beans"
+				type: "item"
+			}]
+			tasks: [{
+				id: "720C032B7C1CBC2B"
+				item: "farmindustry:enriched_cocoa_beans"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0ABF98E3CEA3311F"]
+			description: ["トマトと小麦粉を合わせたものが石みたいな形になった！！科学の力ってすげー！"]
+			id: "3503699318EB00B4"
+			rewards: [{
+				count: 8
+				id: "6AEE4800AA9B61C6"
+				item: "mekanism:enriched_redstone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DACBA9DF906AC6F"
+				item: "mekanism:enriched_redstone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1DB500C492207EA5"]
+			description: [
+				"基本的な回路です。これからアホみたいに要求される例の緑のやつです。"
+				"なんか難化されています。"
+			]
+			id: "37DDFFFBAE416FA3"
+			rewards: [{
+				count: 32
+				id: "5A63142D7681C1ED"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38541E040EADB366"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3503699318EB00B4"]
+			id: "654DE1CEBB3FB673"
+			rewards: [{
+				count: 32
+				id: "340D71D984A65D70"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "5F937189F101DBA5"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0ABF98E3CEA3311F"]
+			description: [
+				"サラダボウルというのは名ばかりでサラダっぽいものは２つぐらいです。mek倍加ラインに入れると鉱石みたいに倍加されます。"
+				"謎技術。"
+			]
+			id: "1E46061F34E2AA59"
+			rewards: [
+				{
+					count: 8
+					id: "7A16322825BA7E13"
+					item: "farmindustry:iron_saladbowl"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A19ACD170CB7EB4"
+					item: "farmindustry:copper_saladbowl"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "08E82BED0D458D76"
+					item: "farmindustry:osmium_saladbowl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6FAF9E86D71F7387"
+				title: "サラダボウル"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"14261ED64D1BF30F"
+				"45A7DE6CDF8CC67A"
+				"3F1111690BE46333"
+				"3A9C9D0EE13737E1"
+			]
+			description: ["粉を粉砕機で作ればいいじゃんという考えは頭の奥に仕舞っといてください。"]
+			id: "1F01DB7E61C3D98B"
+			rewards: [{
+				count: 2
+				id: "3A1D7E6F97724A29"
+				item: "mekanism:electrolytic_core"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7495544A4B017896"
+				item: "mekanism:electrolytic_core"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1E46061F34E2AA59"]
+			id: "3F1111690BE46333"
+			tasks: [{
+				id: "6F81B56B57CB4E1C"
+				item: "farmindustry:gold_saladbowl"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1E46061F34E2AA59"]
+			id: "14261ED64D1BF30F"
+			tasks: [{
+				id: "493B2F484AC89185"
+				item: "farmindustry:iron_saladbowl"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1E46061F34E2AA59"]
+			id: "509FA81FE3E0A80C"
+			tasks: [{
+				id: "6549E23FDD8B54F3"
+				item: "farmindustry:diamond_saladbowl"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1E46061F34E2AA59"]
+			id: "48CB3C7E34139A2F"
+			tasks: [{
+				id: "03C879B5C1CF8772"
+				item: "farmindustry:emerald_saladbowl"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1E46061F34E2AA59"]
+			id: "3A457913F40C1093"
+			tasks: [{
+				id: "20DB97472D77E8B3"
+				item: "farmindustry:lapis_saladbowl"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E46061F34E2AA59"]
+			id: "2D709374D633139F"
+			tasks: [{
+				id: "778F4CE11BE636D4"
+				item: "farmindustry:copper_saladbowl"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1E46061F34E2AA59"]
+			id: "166A8867D4896E7B"
+			tasks: [{
+				id: "476DC8D42FF37C2B"
+				item: "farmindustry:redstone_saladbowl"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1E46061F34E2AA59"]
+			id: "798F0D10E4F82C41"
+			tasks: [{
+				id: "05091470A2CC3C3E"
+				item: "farmindustry:uranium_saladbowl"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1E46061F34E2AA59"]
+			id: "50FCCF844090196D"
+			tasks: [{
+				id: "580DFB0F733D1022"
+				item: "farmindustry:fluorite_saladbowl"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1E46061F34E2AA59"]
+			id: "043F505AB1DE3FDF"
+			tasks: [{
+				id: "4632E1CD0669A568"
+				item: "farmindustry:quartz_saladbowl"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E46061F34E2AA59"]
+			id: "45A7DE6CDF8CC67A"
+			tasks: [{
+				id: "2F02687107312A36"
+				item: "farmindustry:osmium_saladbowl"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1E46061F34E2AA59"]
+			id: "2E1F5054CC34A20C"
+			tasks: [{
+				id: "4FCF0E221828221B"
+				item: "farmindustry:tin_saladbowl"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E46061F34E2AA59"]
+			id: "7B69DFFD5FA81E29"
+			tasks: [{
+				id: "0471F17E273959FE"
+				item: "farmindustry:lead_saladbowl"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"72D10E2E3DD8DF03"
+				"2F98DE4B7B765456"
+			]
+			id: "44DDB5BFD8FA9706"
+			tasks: [{
+				id: "19F00984A9955136"
+				item: "farmindustry:cocosteel_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2F98DE4B7B765456"]
+			id: "6A383F068CA3FAE4"
+			tasks: [{
+				id: "3AF212026FC7ED29"
+				item: "farmindustry:like_ancient_debris"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0D07A7906E7A8477"
+				"5BCC14282386E82E"
+			]
+			id: "2C2ACDAB3FCD3D1A"
+			tasks: [{
+				id: "2FCA1B3D4B31FE17"
+				item: "farmindustry:like_gold_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2C2ACDAB3FCD3D1A"
+				"29AF618D5CB47DEE"
+			]
+			id: "695DDA17846FFD26"
+			tasks: [{
+				id: "12C4CD2AF14CCAFB"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2F98DE4B7B765456"]
+			id: "7C98A25E62FC61CE"
+			tasks: [{
+				id: "0105505663AB6DB3"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F98DE4B7B765456"]
+			id: "0D07A7906E7A8477"
+			tasks: [{
+				id: "7342198246043F3B"
+				item: "farmersdelight:rice_panicle"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7C98A25E62FC61CE"]
+			id: "5BCC14282386E82E"
+			tasks: [{
+				id: "053F669FD5EF791B"
+				item: "farmindustry:carrot_ingot_base"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6A383F068CA3FAE4"]
+			id: "29AF618D5CB47DEE"
+			tasks: [{
+				id: "61A7F7A1F3CD3018"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"695DDA17846FFD26"
+				"44DDB5BFD8FA9706"
+				"1A7372B9A7CDBE32"
+			]
+			id: "703710A870DACE7C"
+			tasks: [{
+				id: "1CA5DFDA2B7D0A04"
+				item: {
+					Count: 1
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "autofarms:auto_farm_tier2"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1DB500C492207EA5"]
+			description: ["自動農場tier2からは肥料が要求されます。肥料は素材混成機で作られ、１回で農場１０機を稼働させるのにちょうどの肥料が得られます。tier1肥料の場合は１０機中２機を肥料の生産に当てるとちょうど良く動きますが肥料は後で使うので少し余らせておくことをおすすめします。"]
+			id: "2F98DE4B7B765456"
+			tasks: [{
+				id: "1370066C519817A6"
+				title: "自動農場tier2"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["350015CB5A4046A5"]
+			id: "1A7372B9A7CDBE32"
+			tasks: [{
+				id: "10D78BEB632185F9"
+				item: "farmindustry:liquid_fertilizer_tier1_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["654DE1CEBB3FB673"]
+			description: [
+				"Infused Alloyを作ったことで、Upgradeが作れるようになりました！"
+				"Upgradeを使えば、機械の性能を上げることができます。そしてこのpackではアプグレを16個積めて、100倍まで性能を上げることができます。"
+				"機械を毎tick動作させたかったのでアップグレードは普通のmekanismの倍の効果があります。"
+			]
+			id: "25F0A034723B0CBB"
+			tasks: [{
+				id: "148789DBE0D5E4B8"
+				title: "Uograde"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["25F0A034723B0CBB"]
+			description: [
+				"消費電力を抑えて電力キャパシティを増加せせるアップグレードです。積むだけお得です。8枚以降はスピードアップグレードを積んでいる量しか効果が出ません。"
+				"8枚で消費電力10分の1、電力キャパシティ10倍"
+				"16枚で消費電力100分の1、電力キャパシティ100倍"
+			]
+			id: "7B414C16AE3B4BF1"
+			rewards: [{
+				count: 16
+				id: "65D2E7DF0C783F8C"
+				item: "mekanism:upgrade_energy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50E135C5DDBD57E0"
+				item: "mekanism:upgrade_energy"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["25F0A034723B0CBB"]
+			description: [
+				"機械の稼働速度を高めることができるアップグレードです。ただその分消費電力も上がるので注意。"
+				"8個で速度10倍、消費電力100倍"
+				"16個で速度100倍、消費電力10000倍"
+			]
+			id: "6E4B9ED1CA8DCB17"
+			rewards: [{
+				count: 16
+				id: "5E4184EA10E6E5BF"
+				item: "mekanism:upgrade_speed"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F8F4F0FDB8A4F99"
+				item: "mekanism:upgrade_speed"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["25F0A034723B0CBB"]
+			description: ["確率でガスの消費をしなくなるUpgradeです。確率なので自動クラフトに組み込みづらいのが特徴です。パッシブラインを作って対処しましょう。"]
+			id: "45A15F7DEDB51239"
+			rewards: [{
+				count: 16
+				id: "39A6400C9DB7DCCE"
+				item: "mekanism:upgrade_gas"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23F93B75673398BF"
+				item: "mekanism:upgrade_gas"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["25F0A034723B0CBB"]
+			description: ["機械の音がうるさい？パソコンの音量を下げましょう。"]
+			id: "0CBDA3B782E294B6"
+			rewards: [{
+				count: 16
+				id: "434CC902CC9A0AAD"
+				item: "mekanism:upgrade_muffling"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EB3A0E4927F1EDF"
+				item: "mekanism:upgrade_muffling"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1F01DB7E61C3D98B"]
+			description: ["電解分離機、この子だけアップグレードの仕様が特殊なんですよね。目立ちたがりなのかな？可愛いね"]
+			id: "45C22FEA8FEF5FF3"
+			tasks: [{
+				id: "03FD0E27D22FB6F5"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["654DE1CEBB3FB673"]
+			description: [
+				"エチレン発電はとても強いです。今まで使っていなかった人は使ってみな、（桁が2つほど）飛ぶぞ。"
+				"一基で約72200fe/tickです。他の工業modのエンドコンテンツ並の性能があります。"
+			]
+			id: "3A9C9D0EE13737E1"
+			tasks: [{
+				id: "7A0EE52A998EB784"
+				title: "エチエチエチレン発電"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["350015CB5A4046A5"]
+			id: "0E89E4A96F7CB543"
+			tasks: [{
+				id: "1152B336B9AD21CD"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0ED15809A0364D13"]
+			description: ["某無限水源。核分裂炉もこれ一つ、一家に一台sink！"]
+			id: "3D8A97E73A33466E"
+			tasks: [{
+				id: "628A8DCCBA6BB441"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0E89E4A96F7CB543"]
+			id: "4F02908209B8CEEC"
+			tasks: [{
+				id: "6F69195725A2FC6B"
+				item: "mekanism:bio_fuel"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3D8A97E73A33466E"]
+			id: "0CECA9827E307566"
+			tasks: [{
+				id: "44C8D43CC4E0C694"
+				item: "farmindustry:apple_juice_bucket"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"45C22FEA8FEF5FF3"
+				"4F02908209B8CEEC"
+				"0CECA9827E307566"
+			]
+			description: ["めんどくさい機械代表。ただAE2があれば1面で制御できるからやっぱりAE2は強い"]
+			id: "18371FD2E45EE160"
+			rewards: [
+				{
+					count: 2
+					id: "41C72F1CD488996D"
+					item: "storagedrawers:oak_full_drawers_1"
+					type: "item"
+				}
+				{
+					id: "194D55EDE34D8930"
+					item: "storagedrawers:void_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "217DEF76C3033F64"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["350015CB5A4046A5"]
+			description: ["どこかの工業環境では億単位で使用するらしい、、、"]
+			id: "0ED15809A0364D13"
+			rewards: [{
+				count: 64
+				id: "6D5B6AD37FCDF94B"
+				item: "minecraft:clay"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70234EBBBBC88694"
+				item: "minecraft:clay"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["654DE1CEBB3FB673"]
+			description: [
+				"機械の稼働速度を上げるにはアップグレード以外の方法もあります。"
+				"機械の並列化は、一つの機械の中にいくつもの機械が入っているようなイメージです。並列で処理しているので、消費電力が跳ね上がったりもせず、電力が不足しがちな序盤には有り難いものです。"
+			]
+			id: "3B15339F315FBD1F"
+			tasks: [{
+				id: "1CCC17EAF4041FE2"
+				title: "機械の並列化"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3B15339F315FBD1F"]
+			id: "69A0F1C483220A25"
+			rewards: [{
+				count: 8
+				id: "0301A81384B3CC59"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5519FF20F57B8343"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3B15339F315FBD1F"]
+			description: [
+				"このpackでは必要素材が増えています。別に無限資源が材料なのでそんなに変わらないと思いますが。"
+				"追記：嘘です。結構辛いです"
+			]
+			id: "771EC1FEBBD051D3"
+			tasks: [{
+				id: "6BA4269763CD7542"
+				title: "上位の合金と回路"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["771EC1FEBBD051D3"]
+			id: "4880F62266E5E902"
+			rewards: [{
+				count: 32
+				id: "59D3BDD9534C3EDD"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60BE8E1FC7369787"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"4880F62266E5E902"
+				"4F39791CFFD007EA"
+			]
+			id: "7F15A6154D71F9B9"
+			rewards: [{
+				count: 32
+				id: "14F248C190E4B6D0"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "120471E916BDE06E"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 19.0d
+		}
+		{
+			dependencies: [
+				"7F15A6154D71F9B9"
+				"075AB06297DFB4C6"
+			]
+			id: "2205210B90F42909"
+			rewards: [{
+				count: 32
+				id: "78DC7CC54FC9B2AD"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "2A21A1AA830D484A"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3B978FA39A2C1592"]
+			id: "722D899E27F11A98"
+			rewards: [{
+				count: 8
+				id: "53202597DD6F7FF4"
+				item: "mekanism:enriched_diamond"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E982599D6C0B1EE"
+				item: "mekanism:enriched_diamond"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 18.0d
+		}
+		{
+			id: "3B978FA39A2C1592"
+			tasks: [{
+				id: "34B58782982EE2C7"
+				item: "farmindustry:like_diamond"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["2D3C4CF16ADA43E4"]
+			id: "54A2CE8819C8B01E"
+			rewards: [{
+				count: 8
+				id: "17EE6C0EDD92080F"
+				item: "mekanism:enriched_refined_obsidian"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05F98F671F0D7340"
+				item: "mekanism:enriched_refined_obsidian"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"722D899E27F11A98"
+				"31EFD692D5386A36"
+			]
+			id: "2D3C4CF16ADA43E4"
+			tasks: [{
+				id: "6B3A740208032A33"
+				item: "mekanism:dust_refined_obsidian"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["0B43476B5AD21242"]
+			id: "31EFD692D5386A36"
+			tasks: [{
+				id: "6184E498F23FDE40"
+				item: "mekanism:dust_obsidian"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 20.0d
+		}
+		{
+			id: "0B43476B5AD21242"
+			rewards: [
+				{
+					count: 32
+					id: "74AE3F36327F0C4C"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "082C0439D660BC01"
+					item: "mekanismadditions:obsidian_tnt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "55902BB3E62956A9"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"722D899E27F11A98"
+				"654DE1CEBB3FB673"
+			]
+			id: "4F39791CFFD007EA"
+			rewards: [{
+				count: 32
+				id: "26B86248F2BE65CA"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			tasks: [{
+				id: "673DC7EA89C745F4"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"54A2CE8819C8B01E"
+				"4F39791CFFD007EA"
+			]
+			id: "075AB06297DFB4C6"
+			rewards: [{
+				count: 32
+				id: "312DE20C777F158A"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DF164BD23FCE7D5"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["7F15A6154D71F9B9"]
+			id: "325ADDBC535ACA16"
+			rewards: [{
+				count: 8
+				id: "5B1C48ABE602B219"
+				item: "mekanism:elite_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D8B261484514424"
+				item: "mekanism:elite_tier_installer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["2205210B90F42909"]
+			id: "6442728F4EB3316C"
+			rewards: [{
+				count: 8
+				id: "75C361821B0AEBC7"
+				item: "mekanism:ultimate_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AEC529F90911422"
+				item: "mekanism:ultimate_tier_installer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["4880F62266E5E902"]
+			id: "7DD32D6417F7BE4B"
+			rewards: [{
+				count: 8
+				id: "1989B4AA7AEC33AC"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CC4740A49F131A4"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["654DE1CEBB3FB673"]
+			id: "14FB376465CDF0CC"
+			rewards: [
+				{
+					count: 32
+					id: "42046956BB0CB264"
+					item: "mekanism:advanced_universal_cable"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "13760D8ACDC3271B"
+					item: "mekanism:advanced_mechanical_pipe"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "16792685CD725C61"
+					item: "mekanism:advanced_pressurized_tube"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1A4E965392A4A406"
+					item: "mekanism:advanced_logistical_transporter"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1DA9E47BCD87EB56"
+				item: "mekanism:advanced_universal_cable"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4F39791CFFD007EA"]
+			id: "0DA94D46C5CD18EC"
+			rewards: [
+				{
+					count: 32
+					id: "0F0A71796DA9362F"
+					item: "mekanism:elite_universal_cable"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "675F81D0B4B70692"
+					item: "mekanism:elite_mechanical_pipe"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "072D7DB0D32C1834"
+					item: "mekanism:elite_pressurized_tube"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "39ECEC0BAA7F1FE7"
+					item: "mekanism:elite_logistical_transporter"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "545CF74418968AA6"
+				item: "mekanism:elite_universal_cable"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["075AB06297DFB4C6"]
+			id: "6EDAAF01D7CDC3A7"
+			rewards: [
+				{
+					count: 32
+					id: "68094751E654A787"
+					item: "mekanism:ultimate_universal_cable"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "60E41E6B5C472F89"
+					item: "mekanism:ultimate_mechanical_pipe"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "21AF98B73C65A33C"
+					item: "mekanism:ultimate_pressurized_tube"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "29EBE47CF2A2B7C4"
+					item: "mekanism:ultimate_logistical_transporter"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5454CEF32803B544"
+				item: "mekanism:ultimate_universal_cable"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["63DA724665DE0743"]
+			id: "35DBB7B90D853F32"
+			tasks: [{
+				id: "5D24B7367162CD5E"
+				item: "mekanism:configurator"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["654DE1CEBB3FB673"]
+			id: "63DA724665DE0743"
+			subtitle: "一スロットに一つしか持てないでっかいタブレット"
+			tasks: [{
+				id: "484326056A33627F"
+				item: "mekanism:energy_tablet"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.0d
+		}
+		{
+			id: "398A78B3983C72CB"
+			tasks: [{
+				id: "4255FA5A4E6BFD82"
+				item: "mekanism:jetpack"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 12.0d
+		}
+		{
+			id: "677D175E0D395B79"
+			tasks: [{
+				id: "36B00FAFCE9FC8E5"
+				item: "mekanism:jetpack_armored"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["63DA724665DE0743"]
+			id: "6FFBF8216500774F"
+			tasks: [{
+				id: "41C24537EF330AB8"
+				item: "mekanism:free_runners"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6FFBF8216500774F"]
+			id: "793150F77B178AE0"
+			tasks: [{
+				id: "6F41DD97BED6681C"
+				item: "mekanism:free_runners_armored"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["63DA724665DE0743"]
+			id: "6C9D79EBF439B0A5"
+			tasks: [{
+				id: "740A669F0A389541"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2D3C4CF16ADA43E4"]
+			id: "4EA74AE838A16504"
+			tasks: [{
+				id: "078E7630C44E225B"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["4EA74AE838A16504"]
+			id: "1F19E17CC1C14DE0"
+			rewards: [{
+				count: 32
+				id: "63E640FF73299147"
+				item: "mekanism:ingot_refined_obsidian"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18ADABF2175CAA50"
+				item: "mekanism:ingot_refined_obsidian"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"075AB06297DFB4C6"
+				"1F19E17CC1C14DE0"
+			]
+			id: "20A010130BEA232C"
+			tasks: [{
+				id: "109013D13F0CC90F"
+				item: "mekanism:atomic_disassembler"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["18371FD2E45EE160"]
+			id: "67CD9EC83C78371D"
+			tasks: [{
+				id: "36BA671F2226D3E9"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 10.0d
+		}
+	]
+	title: "工業って感じの工業"
+}

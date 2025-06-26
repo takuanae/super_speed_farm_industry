@@ -1,0 +1,634 @@
+{
+	autofocus_id: "2CDFC0BA489A867F"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lets"
+	group: "33E63C4D07E6EAA7"
+	id: "0243D53F80D1530A"
+	images: [
+		{
+			height: 3.0d
+			image: "mekanismgenerators:block/fission_reactor_logic_adapter"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: 27.0d
+		}
+		{
+			height: 3.0d
+			image: "mekanismgenerators:block/fission_reactor_logic_adapter"
+			order: -214
+			rotation: 45.0d
+			width: 3.0d
+			x: 0.0d
+			y: 27.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2A21A1AA830D484A"]
+			description: ["こんなことになっても大丈夫なように拠点から離れた位置に核分裂施設は作りましょう。"]
+			id: "2CDFC0BA489A867F"
+			tasks: [{
+				id: "3B442B89AE834062"
+				title: "Nuclear Flame!!!!!　ｽﾞｯﾄﾞｰｰｰﾝ!!!!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3418DE31CFD0DDF4"
+				"6CCABBDD8435F574"
+				"2CDFC0BA489A867F"
+			]
+			id: "4AA83E25BBD7D4B8"
+			tasks: [{
+				id: "3771DB067DB7C46B"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			icon: "mekanism:thermal_evaporation_block"
+			id: "456953F36F502A71"
+			rewards: [{
+				count: 16
+				id: "28F20A728A1FF4A0"
+				item: "mekanism:thermal_evaporation_block"
+				type: "item"
+			}]
+			subtitle: "水をｴｳﾞｧﾎﾟﾚｰﾄして塩水を作る植物()"
+			tasks: [
+				{
+					id: "5A102AEE488B13A9"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+				{
+					id: "5705144948EEE3E2"
+					item: "mekanism:thermal_evaporation_valve"
+					type: "item"
+				}
+				{
+					id: "7F6E58CA53341F01"
+					item: "mekanism:thermal_evaporation_block"
+					type: "item"
+				}
+			]
+			title: "塩分化プラント"
+			x: -4.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["7F6E8D2BB876A523"]
+			id: "12995F7CECCD58B0"
+			rewards: [{
+				count: 32
+				id: "6AF9318CF0B89B68"
+				item: "mekanism:dust_lithium"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6811DF945B066036"
+				item: "mekanism:dust_lithium"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["4AA83E25BBD7D4B8"]
+			id: "7540A866532C1C2B"
+			tasks: [{
+				id: "19607F31C2204B39"
+				item: "mekanism:dust_sulfur"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7540A866532C1C2B"]
+			id: "549D64E2D618A18C"
+			tasks: [{
+				id: "7E4D4C632ED1941C"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["549D64E2D618A18C"]
+			icon: "mekanism:sulfur_dioxide_bucket"
+			id: "203CADEBDE2DC226"
+			tasks: [{
+				id: "7FE367951D04D90C"
+				title: "Sulfer Dioxide"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4105D6E1DC43B4B5"]
+			icon: "mekanism:sulfuric_acid_bucket"
+			id: "37A38D4BA569A56E"
+			tasks: [{
+				id: "13E2AA72BD02C4B8"
+				title: "Sulfuric Acid"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2290D9AE355F8644"]
+			icon: "mekanism:sulfur_trioxide_bucket"
+			id: "7DC8F0F3EEC777FE"
+			tasks: [{
+				id: "1527543FB68C3CE7"
+				title: "Sulfer Trioxide"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"203CADEBDE2DC226"
+				"319D525505110A63"
+			]
+			id: "2290D9AE355F8644"
+			tasks: [{
+				id: "3A39B47F72491779"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"37A38D4BA569A56E"
+				"7980F5A0AFAE6559"
+			]
+			id: "3731DC061A45670C"
+			tasks: [{
+				id: "6A710E5F9AF7A36A"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3731DC061A45670C"]
+			icon: "mekanism:hydrogen_bucket"
+			id: "6A96294DD3EF1DFF"
+			tasks: [{
+				id: "3168377C63C90B96"
+				title: "Hydrofluoric Acid"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"05515090A644FABA"
+				"6A96294DD3EF1DFF"
+			]
+			icon: "mekanism:chemical_infuser"
+			id: "2221865DEE6826A9"
+			tasks: [{
+				id: "663A26AFD2CA5E2F"
+				title: "またまたケミカルをインフューズ"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["449FE4ED57852510"]
+			icon: "mekanism:uranium_oxide_bucket"
+			id: "05515090A644FABA"
+			tasks: [{
+				id: "61F30037235DF0AA"
+				title: "Uranium  Oxide"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			id: "449FE4ED57852510"
+			rewards: [{
+				count: 16
+				id: "0C62A6761CA2391A"
+				item: "mekanism:yellow_cake_uranium"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F3B56CFD44966CC"
+				item: "mekanism:yellow_cake_uranium"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			icon: "mekanism:oxygen_bucket"
+			id: "319D525505110A63"
+			tasks: [{
+				id: "56E3127CEC86E8DC"
+				title: "Oxygen"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"7DC8F0F3EEC777FE"
+				"0538B21B493F1D54"
+			]
+			icon: "mekanism:chemical_infuser"
+			id: "4105D6E1DC43B4B5"
+			tasks: [{
+				id: "3240127F7FCA5A9F"
+				title: "インフューズをアンコール！"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["53E57CB34EE3C8F2"]
+			icon: "mekanism:rotary_condensentrator"
+			id: "0538B21B493F1D54"
+			tasks: [{
+				id: "2B864592054A7245"
+				title: "くーるくるくーるくる"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			icon: "minecraft:water_bucket"
+			id: "53E57CB34EE3C8F2"
+			tasks: [{
+				id: "74CDAA1089958C5B"
+				title: "water"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			icon: "mekanism:block_fluorite"
+			id: "7980F5A0AFAE6559"
+			tasks: [{
+				id: "7E67F3060DB66509"
+				title: "Fluorite"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2221865DEE6826A9"]
+			icon: "mekanism:uranium_hexafluoride_bucket"
+			id: "38F8251D64865478"
+			tasks: [{
+				id: "6610DBDE17849CCD"
+				title: "ロックなフッ化ウラン"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["38F8251D64865478"]
+			id: "4F15ED84C9671967"
+			subtitle: "くーるくるく－るくる。ﾌｭｲｰｰｰｰｰｰｰﾝ（高速で回る音）"
+			tasks: [{
+				id: "0C43093570ABB439"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["4F15ED84C9671967"]
+			icon: "mekanism:heavy_water_bucket"
+			id: "08508D7F8B2BCA71"
+			rewards: [{
+				count: 64
+				id: "2976695364586DFA"
+				item: {
+					Count: 1
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "minecraft:water"
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "クエストのアイコン実は重水入りバケツ、核燃料入りバケツはなかったのだ！！"
+			tasks: [{
+				id: "14FF428E619A5A81"
+				title: "Fissile Fuel"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["12995F7CECCD58B0"]
+			id: "533EC7CB925FEE5D"
+			tasks: [
+				{
+					id: "7308E98F00ABB13D"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "317B52EA41F55327"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					id: "2FAFCCFC9D313670"
+					item: "mekanismgenerators:fission_reactor_logic_adapter"
+					type: "item"
+				}
+				{
+					id: "663CF7D452C4D8CA"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+				{
+					id: "2A3A266E9B0715CF"
+					item: "mekanismgenerators:control_rod_assembly"
+					type: "item"
+				}
+			]
+			title: "核分裂炉筐体とゆかいな仲間たち"
+			x: -4.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["594661BBC2A7B219"]
+			icon: "mekanism:thermal_evaporation_block"
+			id: "3AD18BC87051E876"
+			tasks: [{
+				id: "614957C898FD33ED"
+				title: "リチウム分化プラント"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["456953F36F502A71"]
+			icon: "mekanism:brine_bucket"
+			id: "594661BBC2A7B219"
+			subtitle: "Brine Power"
+			tasks: [{
+				id: "50D07E912026034A"
+				title: "Brine"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["3AD18BC87051E876"]
+			icon: "mekanism:lithium_bucket"
+			id: "311C65012400B332"
+			tasks: [{
+				id: "6578348D7AB591BA"
+				title: "Lithium"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["311C65012400B332"]
+			icon: "mekanism:rotary_condensentrator"
+			id: "6CEAAA33F74F7018"
+			tasks: [{
+				id: "3BC4F5BA0C9EC9BB"
+				title: "くーるくるくーるくる"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["6CEAAA33F74F7018"]
+			icon: "mekanism:chemical_crystallizer"
+			id: "7F6E8D2BB876A523"
+			tasks: [{
+				id: "7DAF3C15D786D498"
+				title: "ケミカルクリスタライズ"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["0CA620200D460EDF"]
+			id: "339CEAB51AAB9102"
+			subtitle: "そのためだけにクエストに常に昼間と晴れにするボタンを追加したまである"
+			tasks: [{
+				id: "4EA133A56E9BBD73"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			title: "mek随一の駄々っ子機械"
+			x: -1.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["0CA620200D460EDF"]
+			icon: "mekanism:isotopic_centrifuge"
+			id: "20F9A85C4F1E39AD"
+			subtitle: "ｸﾙｸﾙｸﾙｸﾙkrkrkrkrkrkrkr...."
+			tasks: [{
+				id: "16C4E7B1F3BB8066"
+				title: "Isotopic Centrifuge"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 34.0d
+		}
+		{
+			dependencies: [
+				"357920749992A758"
+				"339CEAB51AAB9102"
+			]
+			icon: "mekanism:pressurized_reaction_chamber"
+			id: "45DBF8C6CF3A8A56"
+			tasks: [{
+				id: "55B2FABA871DB2D0"
+				title: "やはりここでも6面使う魔の加工機械"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 36.0d
+		}
+		{
+			dependencies: [
+				"357920749992A758"
+				"20F9A85C4F1E39AD"
+			]
+			icon: "mekanism:pressurized_reaction_chamber"
+			id: "4B332971D79082E4"
+			tasks: [{
+				id: "7998D82992E516C1"
+				title: "やはりここでも6面使う魔の加工機械 (1)"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 36.0d
+		}
+		{
+			id: "357920749992A758"
+			tasks: [{
+				id: "5546AF467DD74077"
+				item: "mekanism:dust_fluorite"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 35.0d
+		}
+		{
+			dependencies: [
+				"08508D7F8B2BCA71"
+				"533EC7CB925FEE5D"
+			]
+			id: "34DA7FA84C45A444"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "核分裂炉のメルトダウン攻撃、プレイヤーの視界に青フィルターがかかった"
+			tasks: [{
+				id: "54A212A9EC0CB45D"
+				title: "Let's 核分裂！！"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["34DA7FA84C45A444"]
+			icon: "farmindustry:liquid_chocolate_bucket"
+			id: "0CA620200D460EDF"
+			rewards: [{
+				count: 8
+				id: "1C4E4C16627027E4"
+				item: "farmersdelight:chocolate_pie"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "クエストのアイコン実は液体チョコレート入りバケツ、使用済み核燃料入りバケツはなかったのだ！！"
+			tasks: [{
+				id: "6D1F5BBE6EC644E7"
+				title: "Nuclear Waste"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 31.0d
+		}
+		{
+			dependencies: ["45DBF8C6CF3A8A56"]
+			icon: "mekanism:heavy_water_bucket"
+			id: "0DF1DC709B934F84"
+			subtitle: "ちなみに高速クルクルすると核燃料に戻ります。何で？　A.だって処理めんどくさいじゃん"
+			tasks: [{
+				id: "0C1882AFBED223EB"
+				title: "Spent Nuclear Waste"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 37.0d
+		}
+		{
+			dependencies: ["4B332971D79082E4"]
+			id: "18CDD2F2EA2C8990"
+			rewards: [{
+				count: 8
+				id: "582CD4469AFA9653"
+				item: "mekanism:pellet_plutonium"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "SPSを作るしか用途のない悲しき存在"
+			tasks: [{
+				id: "45BED2A3ADD823C1"
+				item: "mekanism:pellet_plutonium"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 39.0d
+		}
+		{
+			dependencies: ["45DBF8C6CF3A8A56"]
+			id: "07E85B491D9423AB"
+			rewards: [{
+				count: 16
+				id: "7D6BC540D22414A9"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "なんか君、やせた？"
+			tasks: [{
+				id: "471501566CE8168C"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 39.0d
+		}
+		{
+			icon: "mekanism:oxygen_bucket"
+			id: "6CCABBDD8435F574"
+			tasks: [{
+				id: "653AA0B65CE1A64F"
+				title: "Oxygen"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			icon: "minecraft:coal"
+			id: "3418DE31CFD0DDF4"
+			subtitle: "ブロックでもOK"
+			tasks: [{
+				id: "2512C8E0E5E81DAB"
+				title: "炭系の何か"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+	]
+	title: "let's核分裂"
+}

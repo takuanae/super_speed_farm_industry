@@ -1,0 +1,248 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ae2_2"
+	group: "07DD6285DF4346B2"
+	id: "436E74106ABFE8C8"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["30103C6982910C11"]
+			id: "4EB706F1A81E4C78"
+			tasks: [{
+				id: "17CA0474C7230CE3"
+				item: "ae2additions:cell_component_1024"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4EB706F1A81E4C78"]
+			id: "539FD0BCE4971659"
+			tasks: [{
+				id: "0E6C6A699C27A2BE"
+				item: "ae2additions:cell_component_4096"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["539FD0BCE4971659"]
+			id: "7AF7DFBE241CE59A"
+			tasks: [{
+				id: "29775FB331C031B4"
+				item: "ae2additions:cell_component_16384"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7AF7DFBE241CE59A"]
+			id: "75AB666ED7338E5B"
+			tasks: [{
+				id: "16F0072409047ACF"
+				item: "ae2additions:cell_component_65536"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			id: "30103C6982910C11"
+			tasks: [{
+				id: "453328C1D1CA62F0"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"64F68F877D30B9AA"
+				"30103C6982910C11"
+			]
+			id: "14F3FE181A47D867"
+			tasks: [{
+				id: "44FE4C8A6D327ADE"
+				item: "megacells:cell_component_1m"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["62F0D6A4BE20C504"]
+			id: "7BD13BB34FF41026"
+			tasks: [{
+				id: "179D4DC79A81207B"
+				item: "megacells:cell_component_16m"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["14F3FE181A47D867"]
+			id: "62F0D6A4BE20C504"
+			tasks: [{
+				id: "0D2A92EEE547E6C3"
+				item: "megacells:cell_component_4m"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7BD13BB34FF41026"]
+			id: "227DD318AB8D712B"
+			tasks: [{
+				id: "1B656C5006B53FEF"
+				item: "megacells:cell_component_64m"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["227DD318AB8D712B"]
+			id: "3C78DD8921BDEEC7"
+			tasks: [{
+				id: "25A0C3EA48C64872"
+				item: "megacells:cell_component_256m"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["26C31A19A25D6FAF"]
+			id: "64F68F877D30B9AA"
+			tasks: [{
+				id: "41D38862D60C6E9D"
+				item: "megacells:accumulation_processor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["35A6228C2C0ACDA7"]
+			id: "26C31A19A25D6FAF"
+			tasks: [{
+				id: "7918FBEC83E46CCD"
+				item: "megacells:printed_accumulation_processor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			id: "35A6228C2C0ACDA7"
+			tasks: [{
+				id: "4698C6A4496BE821"
+				item: "megacells:sky_steel_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["64F68F877D30B9AA"]
+			id: "69A2FD2FBE52E6EE"
+			tasks: [{
+				id: "393050CA6C12404C"
+				item: "megacells:mega_crafting_unit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["69A2FD2FBE52E6EE"]
+			id: "638B2B957F25FF7C"
+			tasks: [{
+				id: "73D9C7624169ADFF"
+				item: "megacells:256m_crafting_storage"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["69A2FD2FBE52E6EE"]
+			id: "3B4D7256DE089495"
+			tasks: [{
+				id: "41F6B170E91BA3E9"
+				item: "megacells:mega_crafting_accelerator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["69A2FD2FBE52E6EE"]
+			id: "091D89A406AA799D"
+			tasks: [{
+				id: "64A2825576B5987B"
+				item: "megacells:mega_crafting_monitor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["14F3FE181A47D867"]
+			id: "161A5B1B194AB1C0"
+			tasks: [{
+				id: "4AC9FED931E78DFF"
+				item: "megacells:bulk_cell_component"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["64F68F877D30B9AA"]
+			id: "52F1C375ED6802E9"
+			tasks: [{
+				id: "266B01DA2B3ACC92"
+				item: {
+					Count: 1
+					id: "megacells:mega_energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["64F68F877D30B9AA"]
+			id: "0467C4B6622652C4"
+			tasks: [{
+				id: "2EDD93D77FE7360B"
+				item: "megacells:mega_interface"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["64F68F877D30B9AA"]
+			id: "04D172B5F4B4B30B"
+			tasks: [{
+				id: "554B96963D1AA95F"
+				item: "megacells:mega_pattern_provider"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+	]
+	title: "凄いAE2"
+}

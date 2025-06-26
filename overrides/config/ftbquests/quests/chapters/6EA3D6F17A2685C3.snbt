@@ -1,0 +1,264 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6EA3D6F17A2685C3"
+	group: "07DD6285DF4346B2"
+	id: "6EA3D6F17A2685C3"
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["天才的なﾃﾞﾝｼｿｳｺ様！ﾄﾞｰﾏﾝｾｰﾏﾝﾄﾞｰﾏﾝｾｰﾏﾝ"]
+			id: "0606431F38E544DC"
+			tasks: [{
+				id: "48694FD558A0E275"
+				title: "AE2って凄いんだよ！！"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["実はAE2はControllerがなくても電力供給さえすれば動く。8チャンネルしか使えないけど。"]
+			id: "197A5DA1422D5441"
+			tasks: [{
+				id: "4C7A44C1D3E37413"
+				title: "最小構成"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			description: [
+				"初心者がAE2を扱うときに一番躓くところ。（当社調べ）"
+				""
+				"チャンネルとは簡単に言うと何個の機械を接続できるか。例えば32チャンネルだったら32個の機械を接続できる。"
+				"※ここで言う機械とはAE2のTerminalやPattern Provider、importerなどのAE2のケーブルにくっつくもの。"
+				"チャンネルの数を超えて機械を接続すると超過分は動かなくなる。"
+			]
+			id: "0F0C8BFB181860E8"
+			tasks: [{
+				id: "5EC2BD8C4F01BB44"
+				title: "チャンネル"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"マイクラ工業の実況動画とかを見ているとほとんどの人がAE2倉庫を作るときに作っているゲーミングカラーに光るブロック。"
+				"AE2ネットワークの核になる存在。"
+				"このブロックは一面に32チャンネルを持っているのでたくさんのストレージや機械をくっつけるAE2倉庫には欠かせないもの。"
+				""
+				"controllerを立方体の辺だけに設置することで一つのネットワークに含まれるcontrollerの数を増やすことができる。最大は7x7x7"
+				"{@pagebreak}"
+				"(new page placeholder text)"
+				"{image:screen_shots:textures/picture/controller.png width:100 height:100 align:center}"
+			]
+			id: "7345235775E6A362"
+			tasks: [{
+				id: "50A758E938124B38"
+				title: "controller"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"AE2のケーブルには6種類あります。"
+				"それぞれ"
+				"・Quartz Fiber"
+				"・ME Glass Cable"
+				"・ME Covered Cable"
+				"・ME Covered Danse Cable"
+				"・ME Smart Cable"
+				"・ME Smart Danse Cable"
+				"となります。"
+			]
+			id: "6907BA76A5BF1070"
+			tasks: [{
+				id: "27EB7A5CCDB3D22F"
+				title: "ケーブルの種類"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			description: ["ME Glass Cableに羊毛を被せたもの。８チャンネルを通す。羊毛を被せた、ただそれだけなので別に効力が変わったりはしない。変わったのは見た目だけ。"]
+			id: "7DB19780CFF7E00C"
+			tasks: [{
+				id: "60CA0DFB57B49C0C"
+				title: "ME Covered Cable"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			description: ["ME Covered Cableを４つ固めたもの。32チャンネル（controller１面分）を通す。やけに太いせいか機械には繋がらないので、繋げるにはDenceでないケーブルをDenceなケーブルににくっつけてそれを機械に繋げないといけない。"]
+			id: "1FEBB60292914426"
+			tasks: [{
+				id: "0B9D754CA4F36021"
+				title: "ME Covered Danse Cable"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			description: ["電力（AE）のみを伝えるケーブル。主な用途はP2P用のケーブルへの電力供給（これぐらいしか知らない）。"]
+			id: "007804B3968AF4F7"
+			tasks: [{
+				id: "75BAB6501DDA7D51"
+				title: "Quartz Fiber"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			description: ["最初に作るであろう８チャンネルを通せるケーブル。"]
+			id: "574A4D2DB6320C47"
+			tasks: [{
+				id: "37CF61B8B78D47EC"
+				title: "ME Glass Cable"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"頭が良くなったケーブル。8チャンネルを通す。頭が良くなったので現在あとなんチャンネルが使用可能なのかを見ることができる。"
+				"ただ表示されるのはこのケーブルとその先のケーブルに何個機械がつながっているかなので、使用可能なチャンネル数を確かめたいときは根本を見るように。"
+				"Jadeでケーブルを見ると使用可能なチャンネル数が表示されます。"
+			]
+			id: "46CEDBAEFEE6BBE5"
+			tasks: [{
+				id: "20AD4B32E1FB948D"
+				title: "ME Smart Cable"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			description: ["上のやつが太くなったもの。32チャンネルを通す。Denseじゃない方と性質は同じ。そっちみて"]
+			id: "18B7867B49215419"
+			tasks: [{
+				id: "1C8C2CDA3605BBE3"
+				title: "ME Smart Danse Cable"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			description: ["AE2の醍醐味とも言える自動クラフト、別にそこまで難しくないよん"]
+			id: "6F1C5160AEC1EFEC"
+			tasks: [{
+				id: "569F798E21A670C2"
+				title: "自動クラフト"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"自動クラフトの素材を加工機械に送る機械。"
+				"中にクラフトレシピを登録したパターンを入れるスロットがあり、それのクラフトのリクエストがあったらその素材を隣接するストレージに搬出する。"
+				"クラフトのリクエストに合わせてアイテムが来てそれを搬出するインターフェースみたいな感じ。"
+				"{@pagebreak}"
+			]
+			id: "40D3D45596487355"
+			tasks: [{
+				id: "0FC7B46AA8EE89D9"
+				title: "pattern provider"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"作業台クラフトはpattern providerに接するようにmolecular assemblerを設置することでできます。"
+				"次ページ参照"
+				"{@pagebreak}"
+				"序盤から作れる低コスト型"
+				"{image:screen_shots:textures/picture/crafting.png width:100 height:100 align:center}"
+				"{@pagebreak}"
+				"資源が溜まってきたり加工速度が必要になったときに作る準最速型"
+				"{image:screen_shots:textures/picture/fastest_mode.png width:100 height:100 align:center}"
+			]
+			id: "757CCA4ABB60910A"
+			tasks: [{
+				id: "2173056AEC5FB517"
+				title: "作業台クラフト"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"作業台以外のクラフトをするときは、pattern providerに隣接するように加工機械を置くのが無難です。ただ、一度に大量の加工をする際は、一度ストレージに入れ、それを複数の加工機械に分配し、加工する方法も取れます。"
+				"自動搬出機能はありますが、自動搬入機能はないのでInterfaceにパイプで繋げるなどして搬入する必要があります。"
+				"搬入出が設定できる機械を使う場合、providerの上に置き、下面をAutoInput/OutputにしてAutoEjectをONにするとproviderにポン付けでクラフトができます。"
+			]
+			id: "4054222977D5414E"
+			tasks: [{
+				id: "29414DB70A771676"
+				title: "作業台以外のクラフト"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"AE2優秀機能決定戦をしたら少なくとも上位争いに入るであろうものです。パネル型とブロック型の２種類あるので場面によって使い分けると良いでしょう。"
+				"Interfaceはいくつか機能があります。"
+				"・指定されたアイテムを指定された量インベントリ内に保ち続ける"
+				"・ME倉庫にアイテムを搬入する際の搬入口"
+				"・他の倉庫のInterfaceにStorage BusをつけることでBusをつけた側からInterface側の倉庫にアクセスできるようになる（SSD）"
+			]
+			id: "75784B15F139E0C6"
+			tasks: [{
+				id: "44BA832DFA5315F9"
+				title: "ME Interface"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			description: [
+				"AE2についての話になるとよく出てくるP2P、なんか難しそうですよね？ただとても便利なので覚えておきましょう。"
+				""
+				"P2PはAE2ネットワークのなかにいろんなものを通したろっていうコンセプトのアイテムです。（憶測）"
+				"イメージとしては面の判定を移動させる感じです。まあなんというか、使ってみるほうが早いです。"
+				"&4注意点&rP2Pを通すケーブルにも電力をあげないとP2Pを通してくれません"
+				""
+				"使用方法（MEP2P編）チャンネルを移動させれます。"
+				"Memorycardをもって2組の内一方をシフト右クリしてもう片方を右クリ。そうするだけで面の判定が移っているはずです"
+				"というかP2Pに関してはP2Ptunnelにカーソルを合わせてG長押しで出るガイドを見るのが早いと思います。"
+			]
+			id: "01BE35EA3B7E308C"
+			tasks: [{
+				id: "7FB9CFD950000254"
+				title: "P2Ptunnel"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+	]
+	title: "説明"
+}
