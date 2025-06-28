@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "28B46D487A3A7256"
+	group: "294398244F07A195"
+	id: "28B46D487A3A7256"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "食材集め"
+}

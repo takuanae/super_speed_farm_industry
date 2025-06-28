@@ -111,6 +111,42 @@ event.shaped(Item.of('minecraft:blaze_rod'),
     A:'minecraft:baked_potato'
 }
 )
+//infwand
+event.remove({id:'constructionwand:infinity_wand'})
+    event.shaped(
+        Item.of('constructionwand:infinity_wand'),
+        [
+            '  A',
+            ' B ',
+            'B  '
+        ],
+        {
+            A:'#mekanism:alloys/atomic',
+            B:'#forge:rods/wooden'
+        }
+),
+//angelring
+event.remove({id:'angelring:diamond_ring'})
+event.remove({id:'angelring:angel_ring'})
+event.remove({id:'angelring:energetic_angel_ring'})
+event.remove({id:'constructionwand:infinity_wand'})
+    event.shaped(
+        Item.of('angelring:energetic_angel_ring'),
+        [
+            'ABA',
+            'EDE',
+            'ACA'
+        ],
+        {
+            A:'#mekanism:alloys/infused',
+            B:'mekanism:jetpack',
+            C:'mekanism:free_runners',
+            D:'mekanism:ultimate_control_circuit',
+            E:'mekanism:electrolytic_separator'
+        }
+),
+//flux
+event.recipes.mekanism.metallurgic_infusing('fluxnetworks:flux_dust','#forge:dusts/redstone','10x mekanism:carbon')
 event.recipes.mekanism.metallurgic_infusing('minecraft:ender_pearl','#forge:dusts/emerald','40x mekanism:refined_obsidian')
 event.recipes.mekanism.metallurgic_infusing('minecraft:amethyst_shard','#forge:gems/quartz','40x mekanism:refined_obsidian')
 event.recipes.mekanism.metallurgic_infusing('minecraft:snowball','minecraft:egg','10x mekanism:tin')

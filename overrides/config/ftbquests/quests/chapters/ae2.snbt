@@ -3,6 +3,11 @@
 	default_quest_shape: ""
 	filename: "ae2"
 	group: "07DD6285DF4346B2"
+	icon: {
+		Count: 1
+		id: "ae2:item_storage_cell_256k"
+		tag: { }
+	}
 	id: "007DEA4ADA3D6A7A"
 	order_index: 1
 	quest_links: [ ]

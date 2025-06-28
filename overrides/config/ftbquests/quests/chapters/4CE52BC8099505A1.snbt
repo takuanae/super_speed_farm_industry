@@ -9,6 +9,10 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"このMODPackを遊んでくれたこと、とっても感謝します。とっても"
+				"ありがとーーーー♡♡"
+			]
 			id: "4F934D53F3EFF0DE"
 			tasks: [{
 				id: "2D9C4351413EE5B9"
@@ -20,6 +24,11 @@
 		}
 		{
 			dependencies: ["4F934D53F3EFF0DE"]
+			description: [
+				"作物から機械を作りたいというのとインフレ工業で気持ちよくなりたいっていうだけのコンセプトです"
+				"ただしこのモドパはそこらのモドパとは一味違います！工業がしやすい環境をできるだけ追及しているのです！具体的には"
+				"常に晴天、昼間、モブの沸きoffコンフィグ、洞窟消去、モブドロップ,採掘が一切必要のないレシピ"
+			]
 			id: "68E340A8C42CC1A7"
 			tasks: [{
 				id: "2B4E891BC3385452"
@@ -31,6 +40,7 @@
 		}
 		{
 			dependencies: ["68E340A8C42CC1A7"]
+			description: ["こちらのMODPackはバリン3g様主催のMODPackJAM参加作品です。良い評価をもらいたいものです"]
 			id: "0F1E0B247F7B3BD1"
 			tasks: [{
 				id: "7FE7970BBC08BDD5"
@@ -62,7 +72,7 @@
 		}
 		{
 			dependencies: ["68E340A8C42CC1A7"]
-			description: ["ピースフル"]
+			description: ["敵モブのドロップは必要なものはすべて作成可能なためピースフルでもクリアできます"]
 			id: "160534EBC68D574F"
 			tasks: [{
 				id: "6BD9AA3133D9E1F2"
@@ -74,6 +84,7 @@
 		}
 		{
 			dependencies: ["68E340A8C42CC1A7"]
+			description: ["クエストラインの最後にある歯車型のクエストをクリアすることで次のチャプターに進むことができます"]
 			id: "64B5B87CC791EC03"
 			tasks: [{
 				id: "3BD5C75ABCE0881A"
@@ -86,6 +97,7 @@
 		}
 		{
 			dependencies: ["68E340A8C42CC1A7"]
+			description: ["クエストがあります。きっと丁寧です。クエストです。クエストここにいます。"]
 			id: "2FEEE1D52E3E3643"
 			tasks: [{
 				id: "508335998C4D479C"
@@ -103,13 +115,44 @@
 				"64B5B87CC791EC03"
 				"160534EBC68D574F"
 			]
+			description: ["頑張って！お兄ちゃん！私、応援してるね！！(唐突な妹)"]
 			id: "459563E895149D89"
-			rewards: [{
-				count: 32
-				id: "7D76E320AED18305"
-				item: "minecraft:wheat_seeds"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "7D76E320AED18305"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "14FBDF1D6756EB3A"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "428B4375E5138073"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "32E17916A52364D2"
+					item: "minecraft:ice"
+					type: "item"
+				}
+				{
+					id: "4D7BEC9BFA701057"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				id: "69CC5BE384E79867"
@@ -120,6 +163,7 @@
 			y: 6.0d
 		}
 		{
+			description: ["こちらから工業に集中したいときに邪魔な要素を排除できます。便利でしょ？"]
 			id: "052E2B829B8F9F12"
 			tasks: [{
 				id: "49E6C265DA337D0D"
@@ -135,6 +179,7 @@
 				{
 					auto: "enabled"
 					command: "/gamerule doDaylightCycle false"
+					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "065F0E4F059709CC"
 					type: "command"
@@ -142,6 +187,7 @@
 				{
 					auto: "enabled"
 					command: "/time set day"
+					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "65163AB32B10822B"
 					type: "command"
@@ -161,6 +207,7 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/gamerule doDaylightCycle true"
+				elevate_perms: true
 				exclude_from_claim_all: true
 				id: "0DBE55CB8EB4EB8B"
 				type: "command"
@@ -180,6 +227,7 @@
 				{
 					auto: "enabled"
 					command: "/ftbquests change_progress @s reset 5C6430FFE78D9993"
+					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "759AFCAA532EA178"
 					type: "command"
@@ -187,6 +235,7 @@
 				{
 					auto: "enabled"
 					command: "/ftbquests change_progress @s reset 7E799E22EF724B61"
+					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "7FCF8E146B7F7B88"
 					type: "command"
@@ -194,6 +243,7 @@
 				{
 					auto: "enabled"
 					command: "/ftbquests change_progress @s reset 1C836D716A908916"
+					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "784D79C4F941A17A"
 					type: "command"
@@ -214,6 +264,7 @@
 				{
 					auto: "enabled"
 					command: "/ftbquests change_progress @s reset 4F35FEAFB0F7C0B4"
+					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "77BA53F65B11BDA9"
 					type: "command"
@@ -221,6 +272,7 @@
 				{
 					auto: "enabled"
 					command: "/ftbquests change_progress @s reset 338ED0A5457FFE84"
+					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "7D7576EA1B3E0A7D"
 					type: "command"
@@ -228,6 +280,7 @@
 				{
 					auto: "enabled"
 					command: "/ftbquests change_progress @s reset 0236FB138CFD2EB8"
+					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "030260E3406021DE"
 					type: "command"
@@ -247,6 +300,7 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/gamerule doWeatherCycle true"
+				elevate_perms: true
 				exclude_from_claim_all: true
 				id: "5C2F64D577385727"
 				type: "command"
@@ -265,12 +319,14 @@
 				{
 					auto: "enabled"
 					command: "/gamerule doWeatherCycle false"
+					elevate_perms: true
 					id: "031537AAA8ECD7EF"
 					type: "command"
 				}
 				{
 					auto: "enabled"
 					command: "/weather clear"
+					elevate_perms: true
 					id: "5897B91D5028A23B"
 					type: "command"
 				}
@@ -282,6 +338,75 @@
 			}]
 			x: 0.0d
 			y: -6.0d
+		}
+		{
+			id: "3151CC40AA6850AF"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamerule doMobSpawning false"
+				elevate_perms: true
+				id: "6D31817F903AF9E9"
+				type: "command"
+			}]
+			tasks: [{
+				id: "184429DCC2B904A1"
+				title: "モブの沸きoff"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3151CC40AA6850AF"]
+			id: "0A93DE25A1BA725D"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamerule doMobSpawning true"
+				elevate_perms: true
+				id: "6AD7F97D8BD99516"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4F9B5304BEC71789"
+				title: "解除"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3151CC40AA6850AF"]
+			id: "1EA149D7D1D903B1"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/ftbquests change_progress @s reset 3151CC40AA6850AF"
+					elevate_perms: true
+					id: "545F22C87FCDFA10"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/ftbquests change_progress @s reset 0A93DE25A1BA725D"
+					elevate_perms: true
+					id: "69189DE4F8DD716A"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/ftbquests change_progress @s reset 1EA149D7D1D903B1"
+					elevate_perms: true
+					id: "2949EC2376B96DE7"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "7DB65A5E52CA2D0E"
+				title: "リセット"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -5.0d
 		}
 	]
 	title: "はじめに"

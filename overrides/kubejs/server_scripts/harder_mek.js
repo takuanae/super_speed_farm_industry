@@ -96,10 +96,10 @@ ServerEvents.recipes(event=>{
         }
         )
     }
-    storage('mekanism:qio_drive_base','#forge:pellets/polonium','mekanism:ultimate_control_circuit', '#forge:ingots/lead', 'ae2additions:super_cell_component_256k')
-    storage('mekanism:qio_drive_hyper_dense', 'ae2:matter_ball', 'mekanism:qio_drive_base', 'farmindustry:copper_ingot_single_compressed', 'ae2additions:super_cell_component_1024k')
-    storage('mekanism:qio_drive_time_dilating', 'ae2:singularity', 'mekanism:qio_drive_hyper_dense', 'farmindustry:ingot_steel_double_compressed', 'ae2additions:super_cell_component_4096k')
-    storage('mekanism:qio_drive_supermassive', 'mekanism:ultimate_induction_provider', 'mekanism:qio_drive_time_dilating', 'farmindustry:alloy_atomic_triple_compressed', 'ae2additions:super_cell_component_65m')
+    storage('mekanism:qio_drive_base','#forge:pellets/polonium','mekanism:ultimate_control_circuit', '#forge:ingots/lead', 'ae2additions:super_cell_component_4k')
+    storage('mekanism:qio_drive_hyper_dense', 'ae2:matter_ball', 'mekanism:qio_drive_base', 'farmindustry:copper_ingot_single_compressed', 'ae2additions:super_cell_component_16k')
+    storage('mekanism:qio_drive_time_dilating', 'ae2:singularity', 'mekanism:qio_drive_hyper_dense', 'farmindustry:ingot_steel_double_compressed', 'ae2additions:super_cell_component_64k')
+    storage('mekanism:qio_drive_supermassive', 'mekanism:ultimate_induction_provider', 'mekanism:qio_drive_time_dilating', 'farmindustry:alloy_atomic_double_compressed', 'ae2additions:super_cell_component_256k')
 //nuclear
 event.custom({"type":"mekanism:centrifuging","input":{"amount":5,"gas":"mekanism:spent_nuclear_waste"},"output":{"amount":1,"gas":"mekanism:fissile_fuel"}})
 })

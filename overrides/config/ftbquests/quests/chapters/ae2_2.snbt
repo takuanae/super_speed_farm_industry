@@ -1,8 +1,10 @@
 {
+	autofocus_id: "69A2FD2FBE52E6EE"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ae2_2"
 	group: "07DD6285DF4346B2"
+	icon: "megacells:cell_component_256m"
 	id: "436E74106ABFE8C8"
 	order_index: 2
 	quest_links: [ ]

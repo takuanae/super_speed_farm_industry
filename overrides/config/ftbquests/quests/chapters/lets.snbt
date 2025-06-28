@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "lets"
 	group: "33E63C4D07E6EAA7"
+	icon: "mekanismgenerators:fission_reactor_port"
 	id: "0243D53F80D1530A"
 	images: [
 		{
@@ -46,6 +47,12 @@
 				"2CDFC0BA489A867F"
 			]
 			id: "4AA83E25BBD7D4B8"
+			rewards: [{
+				count: 4
+				id: "6CE3B3CF3059CE30"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3771DB067DB7C46B"
 				item: "mekanism:pressurized_reaction_chamber"
@@ -116,6 +123,12 @@
 		{
 			dependencies: ["7540A866532C1C2B"]
 			id: "549D64E2D618A18C"
+			rewards: [{
+				count: 4
+				id: "1DF8046A8B62C65D"
+				item: "mekanism:personal_chest"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E4D4C632ED1941C"
 				item: "mekanism:chemical_oxidizer"
@@ -166,6 +179,12 @@
 				"319D525505110A63"
 			]
 			id: "2290D9AE355F8644"
+			rewards: [{
+				count: 8
+				id: "2306AD89002FF771"
+				item: "mekanism:basic_chemical_tank"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3A39B47F72491779"
 				item: "mekanism:chemical_infuser"
@@ -357,6 +376,12 @@
 		{
 			dependencies: ["12995F7CECCD58B0"]
 			id: "533EC7CB925FEE5D"
+			rewards: [{
+				count: 16
+				id: "1EE412EE310D154D"
+				item: "mekanismgenerators:fission_reactor_casing"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7308E98F00ABB13D"
@@ -452,6 +477,11 @@
 		{
 			dependencies: ["0CA620200D460EDF"]
 			id: "339CEAB51AAB9102"
+			rewards: [{
+				id: "41BCA930F230E089"
+				item: "minecraft:sunflower"
+				type: "item"
+			}]
 			subtitle: "そのためだけにクエストに常に昼間と晴れにするボタンを追加したまである"
 			tasks: [{
 				id: "4EA133A56E9BBD73"
@@ -629,6 +659,23 @@
 			x: 2.0d
 			y: 5.0d
 		}
+		{
+			dependencies: ["07E85B491D9423AB"]
+			description: [
+				"電気を耐久地代わりに消費するツールと防具でモジュールも入れて強化できます"
+				"特にmekasuitに関しては電気があれば\"大体\"の攻撃は無効にするので強いです"
+				"詳しくは便利アイテムのページを見てください"
+			]
+			id: "335999A44C36B4E0"
+			tasks: [{
+				id: "653548E8291FD05A"
+				title: "MekaTool,Suits"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 39.0d
+		}
 	]
+	subtitle: ["核分裂炉は最大サイズを作る必要はありません。初手最大サイズはもう一種の縛りです"]
 	title: "let's核分裂"
 }

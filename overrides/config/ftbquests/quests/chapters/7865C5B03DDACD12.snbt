@@ -1,0 +1,826 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7865C5B03DDACD12"
+	group: ""
+	id: "7865C5B03DDACD12"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "190A1A5136A451BA"
+			tasks: [{
+				id: "725BB6F25AA98907"
+				item: "mekanism:atomic_disassembler"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "2DB2D3364F8B5694"
+			tasks: [{
+				id: "3FB9630930C834B1"
+				item: "mekanism:meka_tool"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "55594E99ABEDD18F"
+			tasks: [{
+				id: "1A3436525982DAD3"
+				item: "mekanism:mekasuit_helmet"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "1E8C0A9ACA2ACDC0"
+			tasks: [{
+				id: "2D1DEF18F34D1120"
+				item: "mekanism:mekasuit_bodyarmor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "21C65CB830A48BD9"
+			tasks: [{
+				id: "075181176377A917"
+				item: "mekanism:mekasuit_pants"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "0C80916C5BEDA438"
+			tasks: [{
+				id: "39542F3C61BBD800"
+				item: "mekanism:mekasuit_boots"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "75D437D57205E6C3"
+			subtitle: "一部界隈ではくそださスーツと呼ばれているらしい"
+			tasks: [{
+				id: "75C205DFEDE68F62"
+				title: "mekatool,suit"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "26DE131B3F3BC24C"
+			subtitle: "モジュールを取り付けるための作業台的な何か"
+			tasks: [{
+				id: "758E87EDDF27AD9F"
+				item: "mekanism:modification_station"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			description: ["エネルギー容量を増やせます"]
+			id: "14D75692274EDBA1"
+			subtitle: "全meka系共通のユニット"
+			tasks: [{
+				id: "7DDEF1DE2E835EED"
+				item: "mekanism:module_energy_unit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "596CDBAB9B23B92A"
+			tasks: [{
+				id: "3FC858ED5B536844"
+				item: "mekanism:module_attack_amplification_unit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "635C7176BA5C37CB"
+			tasks: [{
+				id: "35BD260C13B8F504"
+				item: "mekanism:module_excavation_escalation_unit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "132B517FC706B341"
+			tasks: [{
+				id: "0F4C9100B5CEBAB9"
+				item: "mekanism:module_farming_unit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "4927A4D9FADAFB07"
+			tasks: [{
+				id: "6A164588139EB836"
+				item: "mekanism:module_shearing_unit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "3DB54B446BC6E079"
+			tasks: [{
+				id: "575A54C39327A798"
+				item: "mekanism:module_teleportation_unit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			id: "7C2C9F7B4F5AB634"
+			tasks: [{
+				id: "667470D2E0EEE8AB"
+				item: "mekanism:module_silk_touch_unit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "77036FFE82FCDA7C"
+			tasks: [{
+				id: "2D36FCBD84930637"
+				item: "mekanism:module_fortune_unit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "3E16BA189E95FBFC"
+			tasks: [{
+				id: "36854A95159E87DF"
+				item: "mekanism:module_blasting_unit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			id: "6F4C49543A45ABEC"
+			tasks: [{
+				id: "359A59D7DBE4DAB9"
+				item: "mekanism:module_vein_mining_unit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			id: "6959F88903F01FB2"
+			tasks: [{
+				id: "1C6D67E84A9350DF"
+				item: "mekanism:module_color_modulation_unit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "2561A69528D3F5C7"
+			tasks: [{
+				id: "2C3E87DC0041DFCA"
+				item: "mekanism:module_laser_dissipation_unit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "3981052C820E0E7B"
+			tasks: [{
+				id: "00C18E37F669C9EB"
+				item: "mekanism:module_radiation_shielding_unit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			id: "03005559F4712CB9"
+			tasks: [{
+				id: "583A7C049DC6605B"
+				title: "装備用unit"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "70A506F91AB955EC"
+			tasks: [{
+				id: "159AFC46E81856CD"
+				item: "mekanism:module_electrolytic_breathing_unit"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "6ED58CF3755F0771"
+			tasks: [{
+				id: "2B267549EC71529E"
+				item: "mekanism:module_inhalation_purification_unit"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "3ADA4C79A533032F"
+			tasks: [{
+				id: "7EBA21DEBB586FBB"
+				item: "mekanism:module_vision_enhancement_unit"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			id: "746109ECB085DF2C"
+			tasks: [{
+				id: "3F4B853F525C0D99"
+				item: "mekanism:module_nutritional_injection_unit"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "2C16E82E46419123"
+			tasks: [{
+				id: "1856D5D9641304ED"
+				item: "mekanism:module_dosimeter_unit"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			id: "5B4E066DA2860AD0"
+			tasks: [{
+				id: "6B9DB7C82CA5BF71"
+				item: "mekanism:module_geiger_unit"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			id: "37B80A08ECAE14AB"
+			tasks: [{
+				id: "009D8B20629966E4"
+				item: "mekanism:module_jetpack_unit"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			id: "117A2A9B012C17B0"
+			tasks: [{
+				id: "275F4A0C46257AF0"
+				item: "mekanism:module_charge_distribution_unit"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			id: "76653825510B0AC1"
+			tasks: [{
+				id: "12D3FAD806AD8D9C"
+				item: "mekanism:module_gravitational_modulating_unit"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			id: "21E8D1568DEDA594"
+			tasks: [{
+				id: "2880B2177755BCBC"
+				item: "mekanism:module_elytra_unit"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			id: "1D0D3A10F7D94EEE"
+			tasks: [{
+				id: "3D52ED86CDD15888"
+				item: "mekanism:module_gyroscopic_stabilization_unit"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			id: "30AA69D90CFAC5EF"
+			tasks: [{
+				id: "454BDB5540BF8037"
+				item: "mekanism:module_hydrostatic_repulsor_unit"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			id: "47448C63D2796772"
+			tasks: [{
+				id: "2E10395818A37BCF"
+				item: "mekanism:module_locomotive_boosting_unit"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			id: "245995D118D07CAE"
+			tasks: [{
+				id: "4FAC5D6593B42480"
+				item: "mekanism:module_motorized_servo_unit"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			id: "5CFD7D363E2AA7BF"
+			tasks: [{
+				id: "0D991E297D24544C"
+				item: "mekanism:module_hydraulic_propulsion_unit"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			id: "6D38D2E1308F016A"
+			tasks: [{
+				id: "3FF659CAB3709F40"
+				item: "mekanism:module_magnetic_attraction_unit"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			id: "277758A4D5DC22FB"
+			tasks: [{
+				id: "6C4DBDC6B9BBBAB0"
+				item: "mekanism:module_frost_walker_unit"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			id: "7CB855DAA4C01CCC"
+			tasks: [{
+				id: "36C3A84FD5897D86"
+				item: "mekanismgenerators:module_solar_recharging_unit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			id: "00C95AAE2EC6917E"
+			tasks: [{
+				id: "547BDDD0A68F150F"
+				item: "mekanismgenerators:module_geothermal_generator_unit"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			id: "2125A8CF5C57D18E"
+			tasks: [{
+				id: "3A77E5A2898B4433"
+				item: "mekanism:jetpack"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "251870E0CE9D3462"
+			tasks: [{
+				id: "559D3F63D07392D1"
+				item: "mekanism:jetpack_armored"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "50F088DC19CC1B7B"
+			tasks: [{
+				id: "636492766887C77B"
+				item: "mekanism:free_runners"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "372D5382CF2C6A22"
+			tasks: [{
+				id: "63A1904A4E4173BC"
+				item: "mekanism:free_runners_armored"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			description: ["便利な倉庫兼バッファ"]
+			id: "7A0F05C09D65191D"
+			tasks: [{
+				id: "7D758BBA3D243062"
+				item: "storagedrawers:oak_full_drawers_1"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			description: ["最大までドロワーに積めば489000個アイテムが入ります"]
+			id: "77739950ACD65DEC"
+			tasks: [{
+				id: "40C0961D517CAC49"
+				item: "storagedrawers:emerald_storage_upgrade"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			id: "70069F40B3E158E9"
+			tasks: [{
+				id: "6C9B1164BD390A41"
+				item: "storagedrawers:void_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			id: "534DBAEFC112FC49"
+			tasks: [{
+				id: "5B70C7F8EDB1B1BE"
+				item: "storagedrawers:compacting_drawers_2"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			id: "37C24286685BFF60"
+			tasks: [{
+				id: "6387D9AF9B0101BE"
+				item: "storagedrawers:compacting_drawers_3"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			id: "0A22166D81DA7D1D"
+			tasks: [{
+				id: "32320DADB0AD0675"
+				item: "storagedrawers:controller"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			id: "363B5B2941376921"
+			subtitle: "右クリックで常時晴天で雨の降らない敵もわかない世界へ！"
+			tasks: [{
+				id: "56D86391D26AF384"
+				item: "javd:portal_block"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			id: "479B69A44E02E131"
+			tasks: [{
+				id: "036BF984F30FAD35"
+				item: "trashcans:item_trash_can"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "2429167C3BAAA490"
+			tasks: [{
+				id: "2AE45C505DE3FD70"
+				item: "trashcans:liquid_trash_can"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			id: "486B3CEF99B2DABA"
+			tasks: [{
+				id: "59D45A216F6FEFC9"
+				item: "trashcans:energy_trash_can"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			id: "254B9C6E0544DAE5"
+			tasks: [{
+				id: "50A31C9FA2EE838D"
+				item: "trashcans:ultimate_trash_can"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			id: "231EEB8979076F22"
+			tasks: [{
+				id: "7491B9E289AF3932"
+				item: "buildinggadgets2:gadget_building"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			id: "452B8FD717295C4C"
+			tasks: [{
+				id: "52256A3C193E9751"
+				item: {
+					Count: 1
+					id: "constructionwand:stone_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			id: "2379FEE8AB6ADCE2"
+			tasks: [{
+				id: "05DE1DAE4407047E"
+				item: {
+					Count: 1
+					id: "constructionwand:iron_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			id: "5302D297E86EB4AF"
+			tasks: [{
+				id: "2600F1B40C365995"
+				item: {
+					Count: 1
+					id: "constructionwand:diamond_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			id: "6430E830030E9A98"
+			tasks: [{
+				id: "41711E4683A62346"
+				item: {
+					Count: 1
+					id: "constructionwand:infinity_wand"
+					tag: {
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			description: ["ワンドにクラフトで取り付け可能"]
+			id: "7A58D40DF81F6C75"
+			subtitle: "疑似Angelblock"
+			tasks: [{
+				id: "4050404CD7386983"
+				item: "constructionwand:core_angel"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.0d
+		}
+		{
+			description: ["ワンドにクラフトで取り付け可能"]
+			id: "1DCCE69AE74E1180"
+			subtitle: "疑似クリエ破壊"
+			tasks: [{
+				id: "42053EBF69B8B050"
+				item: "constructionwand:core_destruction"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			id: "57504184F7F711C0"
+			tasks: [{
+				id: "035A8203454631E9"
+				item: {
+					Count: 1
+					id: "buildinggadgets2:gadget_copy_paste"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			id: "1D0E3661E3103403"
+			tasks: [{
+				id: "24DAC50982880FB2"
+				item: "buildinggadgets2:gadget_exchanging"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			id: "20F552C393DC917D"
+			tasks: [{
+				id: "3D645C289DDC25E2"
+				item: "buildinggadgets2:gadget_destruction"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			id: "7264087B3CE61F52"
+			tasks: [{
+				id: "2F0C8DB7D58FEDEF"
+				item: {
+					Count: 1
+					id: "buildinggadgets2:gadget_cut_paste"
+					tag: {
+						pastereplace: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			id: "1B5E1D8D0EAAC4E5"
+			tasks: [{
+				id: "1915A79359C26447"
+				item: "fluxnetworks:flux_dust"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1B5E1D8D0EAAC4E5"]
+			id: "3708600A428EF522"
+			subtitle: "エネルギーを搬入するやつ"
+			tasks: [{
+				id: "34F9C375125E6176"
+				item: "fluxnetworks:flux_point"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1B5E1D8D0EAAC4E5"]
+			id: "0CCE26E10492D103"
+			subtitle: "エネルギーを搬出するやつ"
+			tasks: [{
+				id: "45BE94570AC58660"
+				item: "fluxnetworks:flux_plug"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1B5E1D8D0EAAC4E5"]
+			id: "01AD82E06D5FD75E"
+			subtitle: "ワイヤレスで給電するために必要なやつ"
+			tasks: [{
+				id: "62A0F9771A3943E1"
+				item: "fluxnetworks:flux_controller"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1B5E1D8D0EAAC4E5"]
+			id: "317AEE4A449915E8"
+			tasks: [{
+				id: "3EA31F2F9AFB2108"
+				item: "fluxnetworks:flux_core"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1B5E1D8D0EAAC4E5"]
+			id: "521A49029248EAA4"
+			tasks: [{
+				id: "6362FBA7B2F2F34D"
+				item: "fluxnetworks:flux_block"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -7.0d
+		}
+		{
+			description: ["簡単チャンクローダーとしても使われる場合があるが今回はFTB Chunksが入ってるのであんまり活用の機会はないかも"]
+			id: "2EB8CC07DDF9C552"
+			subtitle: "無線で電力を送れる便利アイテム"
+			tasks: [{
+				id: "712CAE69574B41B2"
+				title: "Flux Network"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Building Gadget：いろいろなモードを切り替えられる便利建築ツール"
+				"Constraction Wand：視点の先のと同じブロックを一括設置できるツール。左手にブロックを持つと視点の先のブロックの代わりに左手のブロックを設置する。"
+			]
+			id: "31F14F1E118D8786"
+			subtitle: "ないと地味に困るアイテム代表"
+			tasks: [{
+				id: "166A7EE18B705063"
+				title: "一括設置系のアイテムたち"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["絶対にいるというわけではないけどあればQOLが爆上がり"]
+	title: "便利アイテム達"
+}

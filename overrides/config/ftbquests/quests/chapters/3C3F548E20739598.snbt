@@ -4,7 +4,7 @@
 	default_quest_shape: ""
 	filename: "3C3F548E20739598"
 	group: "2E3A98862FC167C5"
-	icon: "minecraft:wheat"
+	icon: "mekanism:metallurgic_infuser"
 	id: "3C3F548E20739598"
 	order_index: 0
 	quest_links: [ ]
@@ -196,7 +196,7 @@
 			description: [
 				"これは銅？いいえ、疑似銅。りんごにベリーの汁をかけただけで銅を名乗るなど銅を舐めているとしか言いようがない。"
 				"これは舐められる銅が悪いね。"
-				"ということでマイクラ公式は錫を追加してブロンズを追加しろ、工業機械も追加してくれるとうれしいな♡"
+				"ということでマイクラ公式は錫を追加してブロンズを追加してくれないかな？工業機械も追加してくれるとうれしいな♡"
 			]
 			id: "20EB1EB086836484"
 			rewards: [{
@@ -676,7 +676,7 @@
 		}
 		{
 			dependencies: ["27B3B9C529556E61"]
-			description: ["俵4個で原木が16個できます。"]
+			description: ["俵4個で原木が32個できます。"]
 			id: "70C382C9659F809E"
 			rewards: [{
 				count: 32

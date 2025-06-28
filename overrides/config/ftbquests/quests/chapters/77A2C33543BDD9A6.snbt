@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "77A2C33543BDD9A6"
+	group: "46CA98C6CC439214"
+	icon: "mekanism:pellet_antimatter"
+	id: "77A2C33543BDD9A6"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "10D4E3C02360DADE"
+		tasks: [{
+			id: "1323FE6B68BED3F7"
+			item: "mekanism:sps_casing"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "またまたｱﾝﾁﾏﾀｰ"
+}

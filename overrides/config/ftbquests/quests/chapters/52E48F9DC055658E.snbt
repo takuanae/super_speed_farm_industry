@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "52E48F9DC055658E"
+	group: "46CA98C6CC439214"
+	icon: "farmindustry:valine_3g"
+	id: "52E48F9DC055658E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "必須アミノ酸"
+}

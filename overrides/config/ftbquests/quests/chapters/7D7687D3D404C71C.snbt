@@ -1,8 +1,10 @@
 {
+	autofocus_id: "5BB5AA068C9F6A42"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "7D7687D3D404C71C"
 	group: "2E3A98862FC167C5"
+	icon: "minecraft:wheat"
 	id: "7D7687D3D404C71C"
 	order_index: 1
 	quest_links: [ ]
@@ -366,5 +368,6 @@
 			y: -11.5d
 		}
 	]
+	subtitle: ["元をたどれば小麦からすべてが作れる。これが西洋人の主食の力か..."]
 	title: "素材集め"
 }

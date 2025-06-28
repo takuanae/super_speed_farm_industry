@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "43137DB7BAAB6F39"
 	group: "60A9419FADC63A29"
+	icon: "mekanism:alloy_infused"
 	id: "43137DB7BAAB6F39"
 	order_index: 0
 	quest_links: [ ]
@@ -109,7 +110,7 @@
 			]
 			id: "37DDFFFBAE416FA3"
 			rewards: [{
-				count: 32
+				count: 16
 				id: "5A63142D7681C1ED"
 				item: "mekanism:basic_control_circuit"
 				type: "item"
@@ -186,7 +187,7 @@
 			description: ["粉を粉砕機で作ればいいじゃんという考えは頭の奥に仕舞っといてください。"]
 			id: "1F01DB7E61C3D98B"
 			rewards: [{
-				count: 2
+				count: 8
 				id: "3A1D7E6F97724A29"
 				item: "mekanism:electrolytic_core"
 				type: "item"
@@ -749,7 +750,7 @@
 			dependencies: ["771EC1FEBBD051D3"]
 			id: "4880F62266E5E902"
 			rewards: [{
-				count: 32
+				count: 16
 				id: "59D3BDD9534C3EDD"
 				item: "mekanism:advanced_control_circuit"
 				type: "item"
@@ -769,7 +770,7 @@
 			]
 			id: "7F15A6154D71F9B9"
 			rewards: [{
-				count: 32
+				count: 16
 				id: "14F248C190E4B6D0"
 				item: "mekanism:elite_control_circuit"
 				type: "item"
@@ -789,7 +790,7 @@
 			]
 			id: "2205210B90F42909"
 			rewards: [{
-				count: 32
+				count: 16
 				id: "78DC7CC54FC9B2AD"
 				item: "mekanism:ultimate_control_circuit"
 				type: "item"
@@ -1229,5 +1230,6 @@
 			y: 10.0d
 		}
 	]
+	subtitle: ["個人的にPRCをAE2を使って自動化するのがすごい気持ちよくて好き"]
 	title: "工業って感じの工業"
 }
