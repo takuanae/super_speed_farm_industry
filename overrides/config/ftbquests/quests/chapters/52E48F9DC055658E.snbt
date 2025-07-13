@@ -1,4 +1,5 @@
 {
+	autofocus_id: "5D179509BD450784"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "52E48F9DC055658E"
@@ -7,6 +8,327 @@
 	id: "52E48F9DC055658E"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: [
+				"18CDD2F2EA2C8990"
+				"07E85B491D9423AB"
+			]
+			description: [
+				"バリンを作ろう。"
+				"先に先のクエストの説明を読んでおくと楽だよ"
+				"暇なあいだに料理の自動生産ラインを整えておくと後半役に立ちます"
+			]
+			id: "5D179509BD450784"
+			subtitle: "ﾊﾞﾘﾝﾊﾞﾘﾝ...ﾎﾞﾘﾎﾞﾘ"
+			tasks: [{
+				id: "48DFBB242AD73CB2"
+				title: "桁違いが言うにはバリン3g制作は一つの節目らしいよ"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D179509BD450784"]
+			description: ["おすすめの肉は豚肉です"]
+			id: "67DA0DF0F8EEF6ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65D23B057473C78B"
+				table_id: 9102838499281701867L
+				type: "choice"
+			}]
+			subtitle: "お肉×64"
+			tasks: [
+				{
+					id: "4CBCFEAEB647F0D1"
+					item: "farmindustry:beef_single_compressed"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "400A7676B8C41F7E"
+					item: "farmindustry:porkchop_single_compressed"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3096BF6FB5603E63"
+					item: "farmindustry:mutton_single_compressed"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "61544DB7A75BD2C7"
+					item: "farmindustry:chicken_single_compressed"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7241ECEA49142975"
+					item: "farmindustry:rabbit_single_compressed"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Meat Single Compressed"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["67DA0DF0F8EEF6ED"]
+			id: "231FCE9348ECF2D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18094FE527F0FB3F"
+				table_id: 4513487613735995241L
+				type: "choice"
+			}]
+			subtitle: "お肉×4096"
+			tasks: [
+				{
+					id: "501925F6E65ABE33"
+					item: "farmindustry:beef_double_compressed"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "38E52A8033E25B4E"
+					item: "farmindustry:porkchop_double_compressed"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1503E008C15BEC93"
+					item: "farmindustry:mutton_double_compressed"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1F4BC6AA95641E17"
+					item: "farmindustry:chicken_double_compressed"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "050EB1CD5B2B759D"
+					item: "farmindustry:rabbit_double_compressed"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Meat Double Compressed"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["231FCE9348ECF2D1"]
+			id: "158EC49F9CF8A3B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1332194258FB5C32"
+				table_id: 5493598809985689441L
+				type: "choice"
+			}]
+			subtitle: "お肉×262144"
+			tasks: [
+				{
+					id: "10ADF015AA363EBC"
+					item: "farmindustry:beef_triple_compressed"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2E045D463D9E34B9"
+					item: "farmindustry:porkchop_triple_compressed"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "49A3F8075918E8CB"
+					item: "farmindustry:mutton_triple_compressed"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5301C76232F10F8C"
+					item: "farmindustry:chicken_triple_compressed"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0795D57FF64A8D4A"
+					item: "farmindustry:rabbit_triple_compressed"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Meat Triple Compressed"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["158EC49F9CF8A3B3"]
+			id: "38A14BB476F3269E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "438D412FB73A0FF3"
+				table_id: 3752722763174353379L
+				type: "choice"
+			}]
+			subtitle: "お肉×16777216"
+			tasks: [
+				{
+					id: "224DA6C1C5988A62"
+					item: "farmindustry:beef_quadruple_compressed"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1DD6B39E9D6AB4ED"
+					item: "farmindustry:porkchop_quadruple_compressed"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "41B734EDC393CB77"
+					item: "farmindustry:mutton_quadruple_compressed"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "14F01B29F9527DB2"
+					item: "farmindustry:chicken_quadruple_compressed"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2445DC4263599EF2"
+					item: "farmindustry:rabbit_quadruple_compressed"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Meat Quadruple Compressed"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["38A14BB476F3269E"]
+			id: "0E19693C8D9CBB58"
+			rewards: [{
+				count: 8
+				id: "41B31EC42B61C510"
+				item: "farmindustry:tiny_valine_3g"
+				type: "item"
+			}]
+			subtitle: "お肉×268435456"
+			tasks: [{
+				id: "0875463362236F01"
+				item: "farmindustry:tiny_valine_3g"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0E19693C8D9CBB58"]
+			description: [
+				"AutoFarmTier4を64台並列常時稼働3504分(58時間)で作れます"
+				"AutoFarmTier5を64台並列常時稼働56分で作れます"
+				"AutoFarmTier6を64台並列常時稼働0.013分(0.8秒)で作れます"
+			]
+			id: "4B80CAEC0DDADD07"
+			rewards: [{
+				id: "39D7CE01D7BD9C76"
+				item: "farmindustry:valine_3g"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "お肉×17179869184"
+			tasks: [{
+				id: "0BE797DFEC3CFDC8"
+				item: "farmindustry:valine_3g"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["4B80CAEC0DDADD07"]
+			hide_dependency_lines: true
+			id: "4C893C4146AD27E2"
+			subtitle: "バリン3gはとても優秀な原材料です"
+			tasks: [{
+				id: "0F3B0B886672F0A6"
+				title: "バリン3gを加工しよう"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["4C893C4146AD27E2"]
+			description: ["半分に割って栄養ペーストやフッ化水素酸をかけると増えます。一つ作ったら無限化できます"]
+			id: "68E1BF5C4E2959BE"
+			subtitle: "バリナリア"
+			tasks: [{
+				id: "4A0F73D65A8A6448"
+				item: "farmindustry:half_valine_3g"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["4C893C4146AD27E2"]
+			id: "3DD0C2C2C4DAC6EA"
+			tasks: [{
+				id: "32CC3DE1C8D0441E"
+				item: "farmindustry:valine_3g_dusts"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["4C893C4146AD27E2"]
+			id: "3DE4C23F422A7009"
+			tasks: [{
+				id: "61DA1D35653E8ED1"
+				item: "farmindustry:enriched_valine_3g"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 20.5d
+		}
+		{
+			dependencies: [
+				"3DD0C2C2C4DAC6EA"
+				"3DE4C23F422A7009"
+			]
+			id: "497125B34702657F"
+			tasks: [{
+				id: "03F22DFE082011F7"
+				item: "farmindustry:valine_3g_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["497125B34702657F"]
+			id: "7189EB4FC88EF71E"
+			tasks: [{
+				id: "333204FF5BD9848A"
+				item: "storagedrawers:creative_storage_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 25.0d
+		}
+	]
 	title: "必須アミノ酸"
 }

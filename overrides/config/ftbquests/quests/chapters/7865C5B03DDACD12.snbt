@@ -676,6 +676,7 @@
 			y: 3.0d
 		}
 		{
+			description: ["Custom machineryで追加された機械のコピーはできないので気を付けましょう"]
 			id: "57504184F7F711C0"
 			tasks: [{
 				id: "035A8203454631E9"

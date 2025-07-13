@@ -7,15 +7,159 @@
 	id: "77A2C33543BDD9A6"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "10D4E3C02360DADE"
-		tasks: [{
-			id: "1323FE6B68BED3F7"
-			item: "mekanism:sps_casing"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: [
+				"18CDD2F2EA2C8990"
+				"07E85B491D9423AB"
+			]
+			description: [
+				"SPSでは外枠以外でケーシングの代わりにstructure glassを使用することができます。"
+				"次ページに構成の見本があります"
+				"{@pagebreak}"
+				"この例では右からプルトニウムを搬入、左から反物質を搬出、中央下から電気を搬入しています。"
+				"搬出はSPS Portをconfiguratorでシフト右クリックして搬出モードにする必要があります"
+				"{image:screen_shots:textures/picture/sps2.png width:100 height:100 align:center}"
+				"{@pagebreak}"
+				"別視点"
+				"{image:screen_shots:textures/picture/sps1.png width:100 height:100 align:center}"
+			]
+			id: "10D4E3C02360DADE"
+			rewards: [{
+				count: 16
+				id: "140CA834AB617A16"
+				item: "mekanism:structural_glass"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1323FE6B68BED3F7"
+					item: "mekanism:sps_casing"
+					type: "item"
+				}
+				{
+					id: "2908E6E8D774DA1F"
+					item: "mekanism:sps_port"
+					type: "item"
+				}
+				{
+					id: "30C0EF4F6DAF5A76"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10D4E3C02360DADE"]
+			id: "39E55846A808A75B"
+			subtitle: "またの名を反物質"
+			tasks: [{
+				id: "42F0ED533B834F33"
+				title: "antimatter"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["39E55846A808A75B"]
+			description: ["さすがにこれから易化されるので安心してください"]
+			id: "2B41CAC4ED4DC4A4"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "これ一つに10000000mbの核燃料が詰まっています"
+			tasks: [{
+				id: "5462A36861A06ACE"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2B41CAC4ED4DC4A4"]
+			description: ["このクエストはいったん無視して先に進むことを推奨します。次チャプターがある程度進んで反物質が不足してきたら触るといいでしょう。"]
+			hide_dependency_lines: true
+			id: "74875D2A3A054D45"
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "あそーれ圧縮圧縮圧縮圧縮"
+			tasks: [{
+				id: "78CD40BF57C38596"
+				title: "貴方はコンパクト化、好きですか？"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1DBB0B5ED7BCC1FB"]
+			description: ["核廃棄物生成効率化レシピもあるよ"]
+			id: "2680A71E392B5B87"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "核分裂炉なら謎の生物喰らったら小さくなるよね（謎理論）"
+			tasks: [{
+				id: "0508D84DA237C038"
+				item: {
+					Count: 1
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "autofarms:compact_fission"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["1DBB0B5ED7BCC1FB"]
+			description: ["反物質生成易化レシピもあるよ"]
+			id: "409E34EC7C8D369D"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "SPSも謎の生物喰らったら小さくなるよね（謎理論）"
+			tasks: [{
+				id: "2D7B81FB91D02F00"
+				item: {
+					Count: 1
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "autofarms:compact_sps"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["3B36BC22217F2B75"]
+			id: "1DBB0B5ED7BCC1FB"
+			subtitle: "やばそうなボウルに反物質8000mb分突っ込んだら動き出したんんだけど、どうしてくれるの？"
+			tasks: [{
+				id: "73E4C62083A65069"
+				item: "farmindustry:living_bowl"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["74875D2A3A054D45"]
+			id: "3B36BC22217F2B75"
+			subtitle: "突如回収の農業要素"
+			tasks: [{
+				id: "2060214BD0F60522"
+				item: "farmindustry:abyss_bowl"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.5d
+		}
+	]
 	title: "またまたｱﾝﾁﾏﾀｰ"
 }

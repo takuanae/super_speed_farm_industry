@@ -6,6 +6,330 @@
 	id: "50112C281E87CD5A"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["5EE14B4603827C21"]
+			id: "341354284D9F526C"
+			shape: "octagon"
+			size: 3.0d
+			tasks: [{
+				id: "705A737E07717383"
+				item: "farmindustry:ultimate_valine_3g"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1E1F1AAC715B55BA"
+				"76302339FFAF0C95"
+				"06735FF3EE75A4D1"
+				"1E313BF5E269AD88"
+				"7CC86CAF60A6D2B4"
+				"3946539498A6DE62"
+				"09F681F90900E965"
+				"697FD6E8DF9D85E1"
+				"745CD12E22A5350A"
+			]
+			id: "5EE14B4603827C21"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6CF6BFD4092F9AA7"
+				item: "farmindustry:eatable_server"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"697591B41AC9B208"
+				"185536B98D1C4DA1"
+				"50C4C6430BDC958F"
+				"2C586813067426A5"
+			]
+			id: "06735FF3EE75A4D1"
+			tasks: [{
+				id: "1E95FE27E7DAB116"
+				item: "farmindustry:darkness_pot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			id: "3946539498A6DE62"
+			tasks: [{
+				id: "0BD258A5CF3C5CD0"
+				item: "farmindustry:server"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"4ACA4DD54A242599"
+				"734C505ACEE01E13"
+				"663501228DB449ED"
+				"0A0A288B4CDF95F0"
+			]
+			id: "745CD12E22A5350A"
+			tasks: [{
+				id: "7916B84D5A995BF1"
+				item: "farmindustry:abyss_bowl"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"1C554619DF85A349"
+				"5BB9E338E15EF3A9"
+				"7AB63A8E55757476"
+			]
+			id: "76302339FFAF0C95"
+			tasks: [{
+				id: "6C160C010E2DF399"
+				item: "farmindustry:eternal_salad"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"5487CEE9A5CE9757"
+				"1A62B1E39455F038"
+				"154079A322C84376"
+				"721280C6A090F44B"
+			]
+			id: "697FD6E8DF9D85E1"
+			tasks: [{
+				id: "66EA656F5A2AE19F"
+				item: "farmindustry:all_being_plate"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			id: "7CC86CAF60A6D2B4"
+			tasks: [{
+				id: "6554785BD73FC30C"
+				item: "farmindustry:chaos_glass"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			id: "1E1F1AAC715B55BA"
+			tasks: [{
+				id: "292A436C1CAE70D9"
+				item: "farmindustry:sea_food_rice"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"7E8A4782694ED0DE"
+				"282C6C56B342BA85"
+			]
+			id: "09F681F90900E965"
+			tasks: [{
+				id: "52884293DA53C140"
+				item: "farmindustry:gluttony_cake"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.5d
+		}
+		{
+			id: "1E313BF5E269AD88"
+			tasks: [{
+				id: "6F4A8601C18C8CFD"
+				item: "farmindustry:many_kinds_of_bread"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.5d
+		}
+		{
+			id: "185536B98D1C4DA1"
+			tasks: [{
+				id: "2E1CCACFC434B847"
+				item: "farmindustry:peace_of_darkness_pot_4"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			id: "2C586813067426A5"
+			tasks: [{
+				id: "53F9FA3ACB4DB5AE"
+				item: "farmindustry:peace_of_darkness_pot_3"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			id: "697591B41AC9B208"
+			tasks: [{
+				id: "41415063F82363C0"
+				item: "farmindustry:peace_of_darkness_pot_1"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			id: "50C4C6430BDC958F"
+			tasks: [{
+				id: "51D631EAC84ABBEA"
+				item: "farmindustry:peace_of_darkness_pot_2"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			id: "734C505ACEE01E13"
+			tasks: [{
+				id: "2B9B3959289CE7CC"
+				item: "farmindustry:peace_of_abyss_bowl_4"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			id: "663501228DB449ED"
+			tasks: [{
+				id: "01052826CA880F5C"
+				item: "farmindustry:peace_of_abyss_bowl_3"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			id: "0A0A288B4CDF95F0"
+			tasks: [{
+				id: "7FBBF2F953F178FA"
+				item: "farmindustry:peace_of_abyss_bowl_1"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			id: "4ACA4DD54A242599"
+			tasks: [{
+				id: "5830FE4E3D7D7194"
+				item: "farmindustry:peace_of_abyss_bowl_2"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			id: "282C6C56B342BA85"
+			tasks: [{
+				id: "615C142D19502B45"
+				item: "farmindustry:peace_of_gluttony_cake_2"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.5d
+		}
+		{
+			id: "7E8A4782694ED0DE"
+			tasks: [{
+				id: "1F1D22DC24F82553"
+				item: "farmindustry:peace_of_gluttony_cake_1"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.5d
+		}
+		{
+			id: "5487CEE9A5CE9757"
+			tasks: [{
+				id: "1B5B8B075FFD0C6D"
+				item: "farmindustry:peace_of_all_being_plate_3"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			id: "721280C6A090F44B"
+			tasks: [{
+				id: "491F4D6D24F4E9AA"
+				item: "farmindustry:peace_of_all_being_plate_1"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			id: "154079A322C84376"
+			tasks: [{
+				id: "3109FF4429EBB083"
+				item: "farmindustry:peace_of_all_being_plate_2"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			id: "1A62B1E39455F038"
+			tasks: [{
+				id: "1E5737F40B27D76D"
+				item: "farmindustry:peace_of_all_being_plate_4"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			id: "7AB63A8E55757476"
+			tasks: [{
+				id: "0AB693C7016BA518"
+				item: "farmindustry:peace_of_eternal_salad_1"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			id: "1C554619DF85A349"
+			tasks: [{
+				id: "4E357CCA337E111F"
+				item: "farmindustry:peace_of_eternal_salad_2"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			id: "5BB9E338E15EF3A9"
+			tasks: [{
+				id: "2890E1005EC1827A"
+				item: "farmindustry:peace_of_eternal_salad_3"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.5d
+		}
+	]
 	title: "神と食材と"
 }

@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
     event.recipes.custommachinery.custom_machine("autofarms:compact_sps", 1)
-        .requireItem("minecraft:cobblestone",1).chance(0)
+        .requireItem("minecraft:cobblestone","cata").chance(0)
         .requireEnergyPerTick(40000000)
         .requireGas("mekanism:polonium 2000", "gas1")
         .produceGas("mekanism:antimatter 2", "gas2")

@@ -1,0 +1,13 @@
+{
+	id: "34145978678799E3"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ count: 4, item: "farmindustry:beef_quadruple_compressed" }
+		{ count: 4, item: "farmindustry:porkchop_quadruple_compressed" }
+		{ count: 4, item: "farmindustry:mutton_quadruple_compressed" }
+		{ count: 4, item: "farmindustry:chicken_quadruple_compressed" }
+		{ count: 4, item: "farmindustry:rabbit_quadruple_compressed" }
+	]
+	title: "quadruple"
+}

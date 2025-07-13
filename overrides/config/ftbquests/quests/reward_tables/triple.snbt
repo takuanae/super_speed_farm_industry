@@ -1,0 +1,13 @@
+{
+	id: "4C3D2F02E7B4A761"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 4, item: "farmindustry:beef_triple_compressed" }
+		{ count: 4, item: "farmindustry:porkchop_triple_compressed" }
+		{ count: 4, item: "farmindustry:mutton_triple_compressed" }
+		{ count: 4, item: "farmindustry:chicken_triple_compressed" }
+		{ count: 4, item: "farmindustry:rabbit_triple_compressed" }
+	]
+	title: "triple"
+}

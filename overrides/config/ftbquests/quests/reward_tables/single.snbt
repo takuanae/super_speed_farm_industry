@@ -1,0 +1,13 @@
+{
+	id: "7E53C762DD6F8BEB"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 4, item: "farmindustry:beef_single_compressed" }
+		{ count: 4, item: "farmindustry:porkchop_single_compressed" }
+		{ count: 4, item: "farmindustry:mutton_single_compressed" }
+		{ count: 4, item: "farmindustry:chicken_single_compressed" }
+		{ count: 4, item: "farmindustry:rabbit_single_compressed" }
+	]
+	title: "single"
+}
