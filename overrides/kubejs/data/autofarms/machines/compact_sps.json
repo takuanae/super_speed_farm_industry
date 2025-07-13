@@ -1,0 +1,122 @@
+{
+  "name": {
+    "text": "Compact SPS"
+  },
+  "appearance": {
+"block": "farmindustry:machine/compact_sps",
+"light": 15,
+"tool_type": ["minecraft:mineable/pickaxe","forge:mineable/paxel"],
+"mining_level": "minecraft:needs_wood_tool",
+"hardness": 1.5,
+"resistance": 500,
+"requires_tool": false
+  },
+
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "id":"energy1",
+      "capacity": 2147483647,
+      "maxOutput":0,
+      "config": {
+        "default": "input",
+        "input": true,
+        "output":false
+      }
+    },
+    {
+      "type": "custommachinery:gas",
+      "id":"gas1",
+      "capacity": 20000,
+      "maxInput":20000,
+      "maxOutput": 0,
+      "config": {
+        "default": "none",
+        "left": "input",
+        "input": true,
+        "output":false
+      }
+    },
+        {
+      "type": "custommachinery:gas",
+      "id":"gas2",
+      "capacity": 2000,
+      "maxInput":0,
+      "maxOutput": 2000,
+      "config": {
+        "default": "none",
+        "right": "output",
+        "input": false,
+        "output":true
+      }
+    },
+           {
+            "mode": "input",
+            "id": "cata",
+            "capacity": 1,
+            "filter": ["farmindustry:abyss_bowl", "farmindustry:living_bowl", "farmindustry:devil_valine_3g", "farmindustry:devil_valine_3g_ingot"],
+            "whitelist": true,
+            "type": "custommachinery:item",
+            "config": {
+              "default": "none"
+            }
+        }
+
+  ],
+  "gui": [
+  {
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 33,
+      "y": 0,
+      "width": 178,
+      "type": "custommachinery:texture"
+  },
+    {
+      "x": 50,
+      "y": 25,
+      "type": "custommachinery:gas",
+      "id": "gas1"
+  },  	
+  {
+    "x": 68,
+    "y": 25,
+    "type": "custommachinery:energy",
+    "id": "energy1"
+  },  	
+  {
+    "x": 167,
+    "y": 25,
+    "type": "custommachinery:gas",
+    "id": "gas2"
+  },  
+      {
+        "x": 113,
+        "y": 55,
+        "type": "custommachinery:slot",
+        "id":"cata"
+    },
+        {
+        "x": 110,
+        "y": 37,
+        "type": "custommachinery:progress"
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 10,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 41,
+      "y": 85  
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 43,
+      "y": 7,
+      "text": {
+        "text": "Compact SPS"
+      }
+    }
+  ]
+}

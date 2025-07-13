@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+    	"north": "farmindustry:block/mini_fission_front",
+    	"east": "farmindustry:block/mini_fission_left",
+    	"south": "farmindustry:block/mini_fission_side",
+    	"west": "farmindustry:block/mini_fission_right",
+    	"up": "farmindustry:block/mini_fission_side",
+    	"down": "farmindustry:block/mini_fission_side",
+    	"particle": "farmindustry:block/auto_cooking_pot_top"
+    }
+}
