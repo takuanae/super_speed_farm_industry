@@ -60,6 +60,8 @@
 				"(new page placeholder text)"
 				"{image:screen_shots:textures/picture/controller.png width:100 height:100 align:center}"
 			]
+			hide_dependency_lines: false
+			icon: "ae2:controller"
 			id: "7345235775E6A362"
 			tasks: [{
 				id: "50A758E938124B38"
@@ -92,6 +94,7 @@
 		}
 		{
 			description: ["ME Glass Cableに羊毛を被せたもの。８チャンネルを通す。羊毛を被せた、ただそれだけなので別に効力が変わったりはしない。変わったのは見た目だけ。"]
+			icon: "ae2:white_covered_cable"
 			id: "7DB19780CFF7E00C"
 			tasks: [{
 				id: "60CA0DFB57B49C0C"
@@ -103,6 +106,7 @@
 		}
 		{
 			description: ["ME Covered Cableを４つ固めたもの。32チャンネル（controller１面分）を通す。やけに太いせいか機械には繋がらないので、繋げるにはDenceでないケーブルをDenceなケーブルににくっつけてそれを機械に繋げないといけない。"]
+			icon: "ae2:white_covered_dense_cable"
 			id: "1FEBB60292914426"
 			tasks: [{
 				id: "0B9D754CA4F36021"
@@ -114,6 +118,7 @@
 		}
 		{
 			description: ["電力（AE）のみを伝えるケーブル。主な用途はP2P用のケーブルへの電力供給（これぐらいしか知らない）。"]
+			icon: "ae2:quartz_fiber"
 			id: "007804B3968AF4F7"
 			tasks: [{
 				id: "75BAB6501DDA7D51"
@@ -125,6 +130,7 @@
 		}
 		{
 			description: ["最初に作るであろう８チャンネルを通せるケーブル。"]
+			icon: "ae2:fluix_glass_cable"
 			id: "574A4D2DB6320C47"
 			tasks: [{
 				id: "37CF61B8B78D47EC"
@@ -140,6 +146,7 @@
 				"ただ表示されるのはこのケーブルとその先のケーブルに何個機械がつながっているかなので、使用可能なチャンネル数を確かめたいときは根本を見るように。"
 				"Jadeでケーブルを見ると使用可能なチャンネル数が表示されます。"
 			]
+			icon: "ae2:white_smart_cable"
 			id: "46CEDBAEFEE6BBE5"
 			tasks: [{
 				id: "20AD4B32E1FB948D"
@@ -151,6 +158,7 @@
 		}
 		{
 			description: ["上のやつが太くなったもの。32チャンネルを通す。Denseじゃない方と性質は同じ。そっちみて"]
+			icon: "ae2:white_smart_dense_cable"
 			id: "18B7867B49215419"
 			tasks: [{
 				id: "1C8C2CDA3605BBE3"
@@ -162,6 +170,7 @@
 		}
 		{
 			description: ["AE2の醍醐味とも言える自動クラフト、別にそこまで難しくないよん"]
+			icon: "ae2:256k_crafting_storage"
 			id: "6F1C5160AEC1EFEC"
 			tasks: [{
 				id: "569F798E21A670C2"
@@ -178,6 +187,7 @@
 				"クラフトのリクエストに合わせてアイテムが来てそれを搬出するインターフェースみたいな感じ。"
 				"{@pagebreak}"
 			]
+			icon: "ae2:pattern_provider"
 			id: "40D3D45596487355"
 			tasks: [{
 				id: "0FC7B46AA8EE89D9"
@@ -198,6 +208,7 @@
 				"資源が溜まってきたり加工速度が必要になったときに作る準最速型"
 				"{image:screen_shots:textures/picture/fastest_mode.png width:100 height:100 align:center}"
 			]
+			icon: "ae2:molecular_assembler"
 			id: "757CCA4ABB60910A"
 			tasks: [{
 				id: "2173056AEC5FB517"
@@ -213,6 +224,7 @@
 				"自動搬出機能はありますが、自動搬入機能はないのでInterfaceにパイプで繋げるなどして搬入する必要があります。"
 				"搬入出が設定できる機械を使う場合、providerの上に置き、下面をAutoInput/OutputにしてAutoEjectをONにするとproviderにポン付けでクラフトができます。"
 			]
+			icon: "ae2:pattern_provider"
 			id: "4054222977D5414E"
 			tasks: [{
 				id: "29414DB70A771676"
@@ -230,6 +242,7 @@
 				"・ME倉庫にアイテムを搬入する際の搬入口"
 				"・他の倉庫のInterfaceにStorage BusをつけることでBusをつけた側からInterface側の倉庫にアクセスできるようになる（SSD）"
 			]
+			icon: "ae2:interface"
 			id: "75784B15F139E0C6"
 			tasks: [{
 				id: "44BA832DFA5315F9"
@@ -251,6 +264,7 @@
 				"Memorycardをもって2組の内一方をシフト右クリしてもう片方を右クリ。そうするだけで面の判定が移っているはずです"
 				"というかP2Pに関してはP2Ptunnelにカーソルを合わせてG長押しで出るガイドを見るのが早いと思います。"
 			]
+			icon: "ae2:me_p2p_tunnel"
 			id: "01BE35EA3B7E308C"
 			tasks: [{
 				id: "7FB9CFD950000254"

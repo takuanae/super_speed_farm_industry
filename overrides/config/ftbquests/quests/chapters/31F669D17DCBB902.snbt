@@ -6,6 +6,182 @@
 	id: "31F669D17DCBB902"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["341354284D9F526C"]
+			id: "7EB4B9287373E53A"
+			tasks: [{
+				id: "2F4E5F6BD6317C1A"
+				title: "Beyond Creative"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["215A9AAB3DD2789F"]
+			id: "72C6003619B51F79"
+			tasks: [{
+				id: "185531CA43BC2777"
+				item: "farmindustry:devil_valine_3g"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "215A9AAB3DD2789F"
+			tasks: [{
+				id: "5F6FAEF2EF3B49A5"
+				item: "farmindustry:living_bowl"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7EB4B9287373E53A"]
+			id: "4FA268EFC0F1D9B4"
+			tasks: [{
+				id: "7EA8449A30A0A978"
+				item: "ae2:creative_energy_cell"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"72C6003619B51F79"
+				"4FA268EFC0F1D9B4"
+			]
+			id: "03B81062E1894703"
+			tasks: [{
+				id: "68C11173BB8C4B5D"
+				item: {
+					Count: 1
+					id: "mekanism:creative_energy_cube"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "1E5AA3428743E2E5"
+			tasks: [{
+				id: "006FDC03BC6B5213"
+				item: "farmindustry:devil_valine_3g_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "73B01639AFE0EC41"
+			tasks: [{
+				id: "104F4233B0E7F142"
+				item: "farmindustry:ultimate_valine_3g_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"1E5AA3428743E2E5"
+				"73B01639AFE0EC41"
+				"7EB4B9287373E53A"
+			]
+			id: "7602F942D6BA3096"
+			tasks: [{
+				id: "3E49BABD98A801FC"
+				item: "mekanism:creative_fluid_tank"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"03B81062E1894703"
+				"7602F942D6BA3096"
+			]
+			id: "187D6E77E4A57666"
+			tasks: [{
+				id: "5F524970EFD3C4DA"
+				item: "mekanism:creative_chemical_tank"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["187D6E77E4A57666"]
+			id: "74E57DED2664D382"
+			tasks: [{
+				id: "3CF5B281C0A2C887"
+				item: "mekanism:creative_bin"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["74E57DED2664D382"]
+			id: "52E1157543700381"
+			tasks: [{
+				id: "5E2AB55806485CE4"
+				item: "storagedrawers:creative_vending_upgrade"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["52E1157543700381"]
+			id: "3C7E406B50EA5830"
+			tasks: [{
+				id: "45EF1FD9CA3E9AF0"
+				item: "appmek:creative_chemical_cell"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["52E1157543700381"]
+			id: "4D870C3E99599DC9"
+			tasks: [{
+				id: "3775C4E3DA9BFDD5"
+				item: "ae2:creative_fluid_cell"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"3C7E406B50EA5830"
+				"4D870C3E99599DC9"
+			]
+			id: "436F4ECFDC95719C"
+			tasks: [{
+				id: "0C23D43EF16EA4DD"
+				item: "ae2:creative_item_cell"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.5d
+		}
+	]
 	title: "創造者のアイテム"
 }
