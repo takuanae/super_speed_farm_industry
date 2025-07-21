@@ -86,8 +86,8 @@ ServerEvents.recipes(event => {
   ],
   {
       A:'#mekanism:personal_storage',
-      B:'mekanismgenerators:fusion_reactor_frame',
-      C:'#forge:pellets/polonium',
+      B:'mekanism:sps_casing',
+      C:'minecraft:echo_shard',
       D:'mekanism:qio_drive_array'
   })
 })

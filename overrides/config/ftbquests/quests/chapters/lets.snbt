@@ -53,6 +53,7 @@
 				item: "mekanism:steel_casing"
 				type: "item"
 			}]
+			subtitle: "略してPRC"
 			tasks: [{
 				id: "3771DB067DB7C46B"
 				item: "mekanism:pressurized_reaction_chamber"
@@ -112,6 +113,7 @@
 		{
 			dependencies: ["4AA83E25BBD7D4B8"]
 			id: "7540A866532C1C2B"
+			subtitle: "石から作るとめんどくさいやつ"
 			tasks: [{
 				id: "19607F31C2204B39"
 				item: "mekanism:dust_sulfur"

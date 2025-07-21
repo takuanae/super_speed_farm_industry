@@ -25,6 +25,7 @@ ServerEvents.recipes(event=>{
     event.recipes.mekanism.combining('megacells:printed_accumulation_processor','ae2:engineering_processor','#forge:ingots/sky_steel')
     event.recipes.mekanism.crushing('ae2:ender_dust','#forge:ender_pearls')
     
+    event.remove({id:"ae2:network/blocks/inscribers"})
     event.custom({type:'mekanism:infusion_conversion',input:{'ingredient':{'tag':'forge:silicon'}},output:{'infuse_type':'farmindustry:silicon','amount':10}})
     event.custom({type:'mekanism:infusion_conversion',input:{'ingredient':{'tag':'ae2:all_certus_quartz'}},output:{'infuse_type':'farmindustry:certus_quartz','amount':10}})
     event.custom({type:'mekanism:infusion_conversion',input:{'ingredient':{'item':'farmindustry:enriched_silicon'}},output:{'infuse_type':'farmindustry:silicon','amount':80}})

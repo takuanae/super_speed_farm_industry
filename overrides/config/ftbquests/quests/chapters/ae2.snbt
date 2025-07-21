@@ -848,6 +848,68 @@
 			x: 8.0d
 			y: 20.0d
 		}
+		{
+			dependencies: ["3024816F1768C4D5"]
+			id: "0524294436DE396C"
+			subtitle: "つよつよパターンプロバイダー"
+			tasks: [{
+				id: "1316EB658FABFF43"
+				item: "expatternprovider:ex_pattern_provider"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["54D745060CC08990"]
+			id: "1B2839CE69235FDF"
+			subtitle: "つよつよ分子組み立て機"
+			tasks: [{
+				id: "7AE30BD3446795D7"
+				item: "expatternprovider:ex_molecular_assembler"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 21.0d
+		}
+		{
+			dependencies: [
+				"50CBA9DB6C344F75"
+				"2CFFA6AA1C0FF393"
+			]
+			id: "79AF649CBF425C43"
+			tasks: [{
+				id: "52EB936D02010808"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["79AF649CBF425C43"]
+			id: "6C098701E2148B24"
+			subtitle: "つよつよインターフェース"
+			tasks: [{
+				id: "7C6BE639E72037D7"
+				item: "expatternprovider:ex_interface"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6C098701E2148B24"]
+			id: "0370EF1E45868A29"
+			subtitle: "(つよつよ)²インターフェース"
+			tasks: [{
+				id: "68057490284C82A2"
+				item: "expatternprovider:oversize_interface"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 13.0d
+		}
 	]
 	title: "AE2"
 }
