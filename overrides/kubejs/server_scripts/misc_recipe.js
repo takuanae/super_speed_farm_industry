@@ -194,6 +194,18 @@ event.shaped(Item.of('minecraft:elytra'),
     C:'farmindustry:alloy_atomic_single_compressed'
 }
 )
+event.shaped(Item.of('mekanismgenerators:reactor_glass'),
+[
+    'BAB',
+    'ACA',
+    'BAB'
+],
+{
+    A:'#forge:ingots/lead',
+    B:'farmindustry:cocoriched_iron',
+    C:'#forge:glass'
+}
+)
 event.recipes.mekanism.metallurgic_infusing('2x minecraft:bee_nest','minecraft:bee_nest','10x mekanism:bio')
 event.recipes.mekanism.crushing('minecraft:honey_block','minecraft:bee_nest')
 event.recipes.mekanism.metallurgic_infusing('minecraft:spider_eye','#forge:ender_pearls','10x mekanism:fungi')

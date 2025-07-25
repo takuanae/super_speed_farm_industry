@@ -111,7 +111,7 @@ event.shaped(Item.of('farmindustry:like_lead_ingot'),
   ],
   {
       A:'farmindustry:beetroot_ingot_base',
-      B:'minecraft:glow_berries'
+      B:'minecraft:sugar'
   }
 ),
 event.shaped(Item.of('farmindustry:like_redstone'),
