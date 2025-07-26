@@ -279,7 +279,7 @@
 				item: "farmindustry:half_valine_3g"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 20.5d
 		}
 		{
@@ -301,7 +301,7 @@
 				item: "farmindustry:enriched_valine_3g"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: 20.5d
 		}
 		{
@@ -315,7 +315,7 @@
 				item: "farmindustry:valine_3g_ingot"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: 23.0d
 		}
 		{
@@ -326,7 +326,95 @@
 				item: "storagedrawers:creative_storage_upgrade"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["4C893C4146AD27E2"]
+			id: "62D40DF8904ADB33"
+			tasks: [{
+				id: "05700614A427BE8C"
+				item: "farmindustry:empowered_valine_3g"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["62D40DF8904ADB33"]
+			id: "5349361CA9BEE778"
+			tasks: [{
+				id: "4572BFC6419288A8"
+				item: "farmindustry:industrial_valine_3g"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["5349361CA9BEE778"]
+			id: "3BAB9396C039BA86"
+			tasks: [{
+				id: "135B31B9F0D7CA83"
+				title: "鉱石320倍化"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 25.0d
+		}
+		{
+			dependencies: [
+				"5349361CA9BEE778"
+				"7189EB4FC88EF71E"
+			]
+			id: "5CF9574DA9FA924E"
+			tasks: [{
+				id: "76128CD5F4315BB7"
+				item: "functionalstorage:max_storage_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["4C893C4146AD27E2"]
+			id: "790D9B46D42FA6FB"
+			tasks: [{
+				id: "3AC39708D1AECF26"
+				title: "Valine_3g Gas"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["790D9B46D42FA6FB"]
+			id: "0EDED1F575F1A518"
+			subtitle: "int_max/tを発電するバリン３g"
+			tasks: [{
+				id: "4AB649DAA0286D9C"
+				item: {
+					Count: 1
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "autofarms:valine_generator"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["5349361CA9BEE778"]
+			id: "5AE473E0BAADFE29"
+			tasks: [{
+				id: "1B2CB073583300B4"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			title: "256k Storage Componentの易化レシピ"
+			x: 6.0d
 			y: 25.0d
 		}
 	]

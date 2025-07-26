@@ -133,7 +133,7 @@ event.shaped(Item.of('farmindustry:like_quartz'),
   ],
   {
       A:'minecraft:apple',
-      B:'minecraft:sugar'
+      B:'minecraft:glow_berries'
   }
 ),
 event.shaped(Item.of('farmindustry:like_emerald'),

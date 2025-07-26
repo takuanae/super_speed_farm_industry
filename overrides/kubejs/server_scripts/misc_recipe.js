@@ -111,6 +111,32 @@ event.shaped(Item.of('minecraft:blaze_rod'),
     A:'minecraft:baked_potato'
 }
 )
+event.shaped(Item.of('functionalstorage:max_storage_upgrade'),
+[
+    'ABA',
+    'CDC',
+    'ABA'
+],
+{
+    A:'farmindustry:industrial_valine_3g',
+    B:'functionalstorage:netherite_upgrade',
+    C:'aeinfinitybooster:infinity_card',
+    D:'storagedrawers:creative_storage_upgrade'
+}
+)
+event.shaped(Item.of('pipez:infinity_upgrade'),
+[
+    'ABA',
+    'CDC',
+    'ABA'
+],
+{
+    A:'farmindustry:industrial_valine_3g',
+    B:'pipez:ultimate_upgrade',
+    C:'ae2:speed_card',
+    D:'farmindustry:ingot_refined_obsidian_double_compressed'
+}
+)
 //infwand
 event.remove({id:'constructionwand:infinity_wand'})
     event.shaped(
@@ -194,7 +220,8 @@ event.shaped(Item.of('minecraft:elytra'),
     C:'farmindustry:alloy_atomic_single_compressed'
 }
 )
-event.shaped(Item.of('mekanismgenerators:reactor_glass'),
+event.remove({id:"mekanismgenerators:reactor/glass"})
+event.shaped(Item.of('mekanismgenerators:reactor_glass',4),
 [
     'BAB',
     'ACA',

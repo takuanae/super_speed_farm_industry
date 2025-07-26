@@ -87,6 +87,18 @@ event.custom({
     "gas": "farmindustry:valine_3g_gas"
   }
 })
+event.custom({
+  "type": "mekanism:gas_conversion",
+  "input": {
+    "ingredient": {
+      "item": "farmindustry:industrial_valine_3g"
+    }
+  },
+  "output": {
+    "amount": 1600,
+    "gas": "farmindustry:industrial_valine_3g_gas"
+  }
+})
 //valine gen
 event.recipes.custommachinery.custom_machine("autofarms:valine_generator", 1)
 .requireGas('farmindustry:valine_3g_gas 1')
@@ -111,4 +123,70 @@ ServerEvents.recipes(event=>{
   C:'mekanismgenerators:fission_reactor_casing',
   D:'mekanismgenerators:fusion_reactor_frame'
 })
+    event.shaped(Item.of('8x farmindustry:empowered_valine_3g'),
+[
+  'ABC',
+  'DEF',
+  'GHI'
+],
+{
+  A:'farmindustry:iron_ingot_single_compressed',
+  B:'farmindustry:wheat_triple_compressed',
+  C:'farmindustry:alloy_infused_single_compressed',
+  D:'farmindustry:beetroot_triple_compressed',
+  E:'farmindustry:valine_3g',
+  F:'farmindustry:carrot_triple_compressed',
+  G:'farmindustry:alloy_reinforced_single_compressed',
+  H:'farmindustry:potato_triple_compressed',
+  I:'farmindustry:alloy_atomic_single_compressed',
 })
+event.shaped(Item.of('farmindustry:industrial_valine_3g'),
+[
+  'ABA',
+  'CDC',
+  'AEA'
+],
+{
+  A:'mekanism:crystal_uranium',
+  B:'mekanism:hdpe_sheet',
+  C:'mekanism:hdpe_stick',
+  D:'farmindustry:empowered_valine_3g',
+  E:'mekanism:ultimate_tier_installer'
+}
+)
+//orepress
+const multiore=['iron','copper','gold','osmium','uranium','tin','lead']
+for (let i = 0; i < multiore.length; i++) {
+    event.custom({
+  "type": "mekanism:injecting",
+  "chemicalInput": {
+    "amount": 1,
+    "gas": "farmindustry:industrial_valine_3g_gas"
+  },
+  "itemInput": {
+    "ingredient": {
+      "tag": "mekanism:crystals/"+multiore[i]+""
+    }
+  },
+  "output": {
+    "item": "mekanism:shard_"+multiore[i]+"",
+    "amount":64
+  }
+})
+}
+//invlmisc
+event.shaped(Item.of('ae2:cell_component_256k',2),
+[
+  'ABA',
+  'CDC',
+  'ACA'
+],
+{
+  A:'ae2:singularity',
+  B:'ae2:calculation_processor',
+  C:'farmindustry:industrial_valine_3g',
+  D:'mekanismgenerators:reactor_glass'
+}
+)
+
+});

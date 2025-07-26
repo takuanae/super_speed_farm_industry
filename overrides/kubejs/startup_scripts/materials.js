@@ -84,6 +84,8 @@ StartupEvents.registry('item', event => {
     event.create('farmindustry:devil_valine_3g_dusts').rarity('epic').food(f=>{f.hunger(2147483647).saturation(1).alwaysEdible()}).displayName('Davil Valine_3g Dusts')
     event.create('farmindustry:server')
     event.create('farmindustry:eatable_server').food(f=>{f.hunger(32767).saturation(1)})
+    event.create('farmindustry:industrial_valine_3g').rarity('epic').food(f=>{f.hunger(2147483647).saturation(2147483647).alwaysEdible()}).displayName('Industrial Valine_3g').glow(true)
+    event.create('farmindustry:empowered_valine_3g').rarity('epic').food(f=>{f.hunger(2147483647).saturation(2147483647).alwaysEdible()}).displayName('Empowered Valine_3g').glow(true)
 }),
 StartupEvents.registry('block', event => {
     for (let i = 0; i < ngbling.length; i++) {
@@ -117,6 +119,7 @@ StartupEvents.registry('mekanism:infuse_type',event =>{
     event.create('farmindustry:devil_valine_3g').color(0x9f9ea4)
 })
 StartupEvents.registry('mekanism:gas',event=>{
+    event.create('farmindustry:industrial_valine_3g_gas').color(0xb9a4ca)
     event.create('farmindustry:valine_3g_gas').color(0x9f9ea4).fuel(1,2147483647)
     //event.create('mekanism:hydrogen').color(0xffffff).fuel(1,200)
     //event.create('farmindustry:ethene').displayName('Ethylene').color(0xEACCF9).fuel(40,28200)
