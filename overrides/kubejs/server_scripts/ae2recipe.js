@@ -19,7 +19,7 @@ ServerEvents.recipes(event=>{
     event.recipes.mekanism.metallurgic_infusing('ae2:charged_certus_quartz_crystal','ae2:certus_quartz_crystal','80x mekanism:redstone')
     event.recipes.mekanism.combining('ae2:fluix_crystal','ae2:charged_certus_quartz_crystal','#forge:gems/quartz')
     event.recipes.mekanism.combining('ae2:silicon','minecraft:leather','#minecraft:wool')
-    event.recipes.mekanism.combining('2x ae2:certus_quartz_crystal','#forge:gems/quartz','minecraft:rabbit')
+    event.recipes.mekanism.combining('2x ae2:certus_quartz_crystal','minecraft:rabbit','#forge:gems/quartz')
     event.recipes.mekanism.combining('ae2:matter_ball','16x #minecraft:fishes','#forge:silicon')
     event.recipes.mekanism.combining('ae2:singularity','2x #farmindustry:compress/triple','ae2:cell_component_64k')
     event.recipes.mekanism.combining('megacells:printed_accumulation_processor','ae2:engineering_processor','#forge:ingots/sky_steel')

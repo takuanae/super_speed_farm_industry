@@ -23,15 +23,15 @@ function pot(fluid,bowl, Output, Input1, Input2, Input3, Input4, Input5, Input6)
     });
 }
 pot('none','minecraft:bowl','farmersdelight:baked_cod_stew', '#forge:raw_fishes/cod', 'minecraft:potato', 'minecraft:egg', 'farmersdelight:tomato');
-pot('none','minecraft:bowl','farmersdelight:cooked_rice','farmersdelight:rice');
+pot('minecraft:water','minecraft:bowl','farmersdelight:cooked_rice','farmersdelight:rice');
 pot('none','minecraft:bowl','farmersdelight:squid_ink_pasta','#forge:raw_fishes','farmersdelight:raw_pasta','farmersdelight:tomato','minecraft:ink_sac')
 pot('none','minecraft:bowl','farmersdelight:bone_broth','minecraft:bone','#forge:mushrooms')
 pot('none','minecraft:bowl','minecraft:rabbit_stew','minecraft:rabbit','minecraft:carrot','#forge:mushrooms')
-pot('none','none','farmersdelight:cabbage_rolls','#forge:salad_ingredients','#farmersdelight:cabbage_roll_ingredients')
+pot('none','none','farmersdelight:cabbage_rolls','farmersdelight:cabbage_leaf','#forge:raw_chicken')
 pot('none','minecraft:bowl','farmersdelight:beef_stew','#forge:raw_beef','minecraft:carrot','minecraft:potato')
 pot('none','minecraft:bowl','farmersdelight:mushroom_rice','minecraft:brown_mushroom','minecraft:red_mushroom','farmersdelight:rice','minecraft:potato')
 pot('none','minecraft:bowl','farmersdelight:vegetable_noodles','minecraft:carrot','minecraft:brown_mushroom','farmersdelight:raw_pasta','#forge:salad_ingredients','#forge:vegetables')
-pot('none','none','2x farmersdelight:dumplings','farmersdelight:wheat_dough','#forge:salad_ingredients','farmersdelight:onion','minecraft:porkchop')
+pot('none','none','2x farmersdelight:dumplings','farmersdelight:wheat_dough','farmersdelight:cabbage','farmersdelight:onion','minecraft:porkchop')
 pot('none','minecraft:bowl','farmersdelight:fried_rice','farmersdelight:rice','minecraft:egg','minecraft:carrot','farmersdelight:onion')
 pot('none','minecraft:bowl','minecraft:mushroom_stew','minecraft:brown_mushroom','minecraft:red_mushroom')
 pot('none','minecraft:pumpkin','farmersdelight:stuffed_pumpkin_block','farmersdelight:rice','farmersdelight:onion','minecraft:brown_mushroom','minecraft:potato','#minecraft:fox_food','#forge:vegetables')
@@ -39,7 +39,7 @@ pot('none','minecraft:bowl','farmersdelight:pasta_with_meatballs','farmersdeligh
 pot('none','minecraft:bowl','farmersdelight:chicken_soup','#forge:raw_chicken','minecraft:carrot','#forge:salad_ingredients','#forge:vegetables')
 pot('none','minecraft:bowl','farmersdelight:tomato_sauce','farmersdelight:tomato','farmersdelight:tomato')
 pot('minecraft:milk','minecraft:glass_bottle','farmersdelight:glow_berry_custard','minecraft:glow_berries','minecraft:egg','minecraft:sugar')
-pot('none','minecraft:bowl','farmersdelight:dog_food','minecraft:rotten_flesh','minecraft:bone_meal','#minecraft:wolf_prey','farmersdelight:rice')
+pot('none','minecraft:bowl','farmersdelight:dog_food','minecraft:rotten_flesh','minecraft:bone_meal','#farmersdelight:wolf_prey','farmersdelight:rice')
 pot('none','minecraft:bowl','minecraft:beetroot_soup','minecraft:beetroot','minecraft:beetroot','minecraft:beetroot')
 pot('none','minecraft:bowl','farmersdelight:pasta_with_mutton_chop','#forge:raw_mutton','farmersdelight:raw_pasta','farmersdelight:tomato_sauce')
 pot('none','minecraft:bowl','farmersdelight:ratatouille','farmersdelight:tomato','farmersdelight:onion','minecraft:beetroot','#forge:vegetables')

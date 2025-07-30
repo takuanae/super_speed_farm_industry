@@ -82,6 +82,8 @@
             "mode": "input",
             "id": "bowl",
             "capacity": 64,
+            "filter": ["minecraft:bowl", "minecraft:glass_bottle", "minecraft:pumpkin"],
+            "whitelist": true,
             "type": "custommachinery:item",
             "config": {
               "default": "none"

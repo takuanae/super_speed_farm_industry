@@ -1,5 +1,27 @@
 ServerEvents.recipes(event=>{
     event.replaceInput({input: 'minecraft:quartz' },'minecraft:quartz','#forge:gems/quartz')
+    event.replaceInput({input: 'minecraft:lapis_lazuli' },'minecraft:lapis_lazuli','#forge:gems/lapis')
+    event.custom({
+  "type": "mekanism:painting",
+  "chemicalInput": {
+    "amount": 256,
+    "pigment": "mekanism:black"
+  },
+  "itemInput": {
+    "ingredient": {
+      "type": "forge:difference",
+      "base": {
+        "tag": "forge:raw_fishes"
+      },
+      "subtracted": {
+        "item": "minecraft:ink_sac"
+      }
+    }
+  },
+  "output": {
+    "item": "minecraft:ink_sac"
+  }
+})
     event.shaped(
         Item.of('minecraft:oak_log',32),
         [
