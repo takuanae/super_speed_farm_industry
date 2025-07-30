@@ -47,10 +47,10 @@
 		eliteOutput = 16000
 		#Storage size of Ultimate fluid tanks in mB.
 		#Range: > 1
-		ultimateStorage = 256000
+		ultimateStorage = 2147483647
 		#Output rate of Ultimate fluid tanks in mB.
 		#Range: > 1
-		ultimateOutput = 64000
+		ultimateOutput = 2147483647
 		#Storage size of Creative fluid tanks in mB.
 		#Range: > 1
 		creativeStorage = 2147483647
@@ -80,10 +80,10 @@
 		eliteOutput = 128000
 		#Storage size of Ultimate chemical tanks in mB.
 		#Range: 1 ~ 9223372036854775807
-		ultimateStorage = 8192000
+		ultimateStorage = 9223372036854775807
 		#Output rate of Ultimate chemical tanks in mB.
 		#Range: 1 ~ 9223372036854775807
-		ultimateOutput = 512000
+		ultimateOutput = 9223372036854775807
 		#Storage size of Creative chemical tanks in mB.
 		#Range: 1 ~ 9223372036854775807
 		creativeStorage = 9223372036854775807
@@ -104,7 +104,7 @@
 		eliteStorage = 32768
 		#The number of items Ultimate bins can store.
 		#Range: > 1
-		ultimateStorage = 262144
+		ultimateStorage = 2147483647
 		#The number of items Creative bins can store.
 		#Range: > 1
 		creativeStorage = 2147483647
@@ -118,7 +118,7 @@
 		#Maximum number of Joules Elite induction cells can store.
 		eliteStorage = "512000000000"
 		#Maximum number of Joules Ultimate induction cells can store.
-		ultimateStorage = "4000000000000"
+		ultimateStorage = "9223372036854775807"
 		#Maximum number of Joules Basic induction providers can output or accept.
 		basicOutput = "256000"
 		#Maximum number of Joules Advanced induction providers can output or accept.
@@ -126,7 +126,7 @@
 		#Maximum number of Joules Elite induction providers can output or accept.
 		eliteOutput = "16384000"
 		#Maximum number of Joules Ultimate induction providers can output or accept.
-		ultimateOutput = "131072000"
+		ultimateOutput = "9223372036854775807"
 
 	#Transmitters
 	[tier.transmitters]
