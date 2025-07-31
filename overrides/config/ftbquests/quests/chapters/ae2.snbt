@@ -209,9 +209,11 @@
 				"215B4AD5C5119226"
 				"405F3560A2F040D9"
 			]
+			description: ["実はなくても8チャンネルまでなら動いたりする"]
 			id: "434FF8A4B6C128C5"
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "ネットワークのコアみたいな存在"
 			tasks: [{
 				id: "451E27BFEACA3E5A"
 				item: "ae2:controller"
@@ -331,6 +333,7 @@
 		}
 		{
 			id: "405F3560A2F040D9"
+			subtitle: "ネットワークに接続したこれにFEを入れないとAE2倉庫は動きません"
 			tasks: [{
 				id: "62D3DCDD22E03487"
 				item: "ae2:energy_acceptor"
@@ -922,5 +925,6 @@
 			y: 18.0d
 		}
 	]
+	subtitle: ["AE2はとても便利です、早めに構築して最大限に恩恵を授かりましょう"]
 	title: "AE2"
 }
