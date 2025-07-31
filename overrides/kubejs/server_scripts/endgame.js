@@ -215,6 +215,8 @@ event.shaped(
       E: 'farmindustry:ultimate_control_circuit_singularity'
     }
   )
+//func vending
+event.shapeless(Item.of('functionalstorage:creative_vending_upgrade'),['storagedrawers:creative_vending_upgrade','@functionalstorage'])
 //MEchem
 event.shaped(
     Item.of('ae2:creative_fluid_cell'),

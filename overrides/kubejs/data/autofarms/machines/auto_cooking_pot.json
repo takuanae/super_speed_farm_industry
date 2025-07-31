@@ -29,6 +29,7 @@
             "id": "input1",
             "capacity": 64,
             "type": "custommachinery:item",
+            "filter": ["minecraft:bowl", "minecraft:glass_bottle", "minecraft:pumpkin"],
             "config": {
               "default": "none"
             }
@@ -38,6 +39,7 @@
             "id": "input2",
             "capacity": 64,
             "type": "custommachinery:item",
+            "filter": ["minecraft:bowl", "minecraft:glass_bottle", "minecraft:pumpkin"],
             "config": {
               "default": "none"
             }
@@ -47,6 +49,7 @@
             "id": "input3",
             "capacity": 64,
             "type": "custommachinery:item",
+            "filter": ["minecraft:bowl", "minecraft:glass_bottle", "minecraft:pumpkin"],
             "config": {
               "default": "none"
             }
@@ -56,6 +59,7 @@
             "id": "input4",
             "capacity": 64,
             "type": "custommachinery:item",
+            "filter": ["minecraft:bowl", "minecraft:glass_bottle", "minecraft:pumpkin"],
             "config": {
               "default": "none"
             }
@@ -65,6 +69,7 @@
             "id": "input5",
             "capacity": 64,
             "type": "custommachinery:item",
+            "filter": ["minecraft:bowl", "minecraft:glass_bottle", "minecraft:pumpkin"],
             "config": {
               "default": "none"
             }
@@ -74,6 +79,7 @@
             "id": "input6",
             "capacity": 64,
             "type": "custommachinery:item",
+            "filter": ["minecraft:bowl", "minecraft:glass_bottle", "minecraft:pumpkin"],
             "config": {
               "default": "none"
             }

@@ -17,9 +17,9 @@
 		#Output rate in Joules of Elite energy cubes.
 		eliteOutput = "64000"
 		#Maximum number of Joules Ultimate energy cubes can store.
-		ultimateStorage = "256000000"
+		ultimateStorage = "9223372036854775807"
 		#Output rate in Joules of Ultimate energy cubes.
-		ultimateOutput = "256000"
+		ultimateOutput = "9223372036854775807"
 		#Maximum number of Joules Creative energy cubes can store.
 		creativeStorage = "18446744073709551615.9999"
 		#Output rate in Joules of Creative energy cubes.

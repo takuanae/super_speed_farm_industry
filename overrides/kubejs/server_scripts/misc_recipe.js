@@ -23,6 +23,48 @@ ServerEvents.recipes(event=>{
   }
 })
     event.shaped(
+        Item.of('minecraft:bowl',16),
+        [
+            'A A',
+            ' A '
+        ],
+        {
+            A:'#minecraft:logs'
+        }
+    ),
+        event.shaped(
+        Item.of('minecraft:glass_bottle',16),
+        [
+            'A A',
+            ' A '
+        ],
+        {
+            A:'mekanism:structural_glass'
+        }
+    ),
+        event.shaped(
+        Item.of('minecraft:bowl',32),
+        [
+            'ABA',
+            ' A '
+        ],
+        {
+            A:'#minecraft:logs',
+            B:'#forge:slimeballs'
+        }
+    ),
+        event.shaped(
+        Item.of('minecraft:glass_bottle',32),
+        [
+            'ABA',
+            ' A '
+        ],
+        {
+            A:'mekanism:structural_glass',
+            B:'#forge:slimeballs'
+        }
+    ),
+    event.shaped(
         Item.of('minecraft:oak_log',32),
         [
             'AA ',

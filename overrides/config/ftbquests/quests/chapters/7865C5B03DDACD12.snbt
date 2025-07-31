@@ -485,6 +485,7 @@
 		}
 		{
 			id: "70069F40B3E158E9"
+			subtitle: "アイテムがドロワーの内部容量を超過したらその分は無に帰ります"
 			tasks: [{
 				id: "6C9B1164BD390A41"
 				item: "storagedrawers:void_upgrade"

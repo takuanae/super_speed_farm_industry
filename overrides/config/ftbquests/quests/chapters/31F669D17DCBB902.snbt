@@ -20,7 +20,9 @@
 		}
 		{
 			dependencies: ["215A9AAB3DD2789F"]
+			description: ["※某魔法少女アニメとは何の関係もありません"]
 			id: "72C6003619B51F79"
+			subtitle: "これこそ人間の感情の極み、希望より熱く絶望より深いもの…… 桁違い よ"
 			tasks: [{
 				id: "185531CA43BC2777"
 				item: "farmindustry:devil_valine_3g"
@@ -31,6 +33,7 @@
 		}
 		{
 			id: "215A9AAB3DD2789F"
+			subtitle: "すっげぇきもいデザインだな"
 			tasks: [{
 				id: "5F6FAEF2EF3B49A5"
 				item: "farmindustry:living_bowl"
@@ -41,6 +44,7 @@
 		}
 		{
 			dependencies: ["7EB4B9287373E53A"]
+			description: ["あると嬉しい、なくても別にどうにかなる"]
 			id: "4FA268EFC0F1D9B4"
 			tasks: [{
 				id: "7EA8449A30A0A978"
@@ -77,6 +81,7 @@
 		}
 		{
 			dependencies: ["341354284D9F526C"]
+			description: ["朗報：アミノ酸インゴット、悪魔となる"]
 			id: "1E5AA3428743E2E5"
 			tasks: [{
 				id: "006FDC03BC6B5213"
@@ -88,6 +93,10 @@
 		}
 		{
 			dependencies: ["341354284D9F526C"]
+			description: [
+				"貴方は気になったでしょう、「何でこんなもの圧縮しようと思ったんだ。」と"
+				"私が答えましょう。ネタが尽きた、アイテム追加めんどくさい、素材使いまわせるしこれでいいか！！（）"
+			]
 			id: "73B01639AFE0EC41"
 			tasks: [{
 				id: "104F4233B0E7F142"
@@ -128,6 +137,7 @@
 		}
 		{
 			dependencies: ["187D6E77E4A57666"]
+			description: ["どっかのProject Architect2はこれのせいで一瞬で攻略されたようです"]
 			id: "74E57DED2664D382"
 			tasks: [{
 				id: "3CF5B281C0A2C887"
@@ -139,6 +149,7 @@
 		}
 		{
 			dependencies: ["74E57DED2664D382"]
+			description: ["ドロワーに入れることでアイテムを無限に増やせます"]
 			id: "52E1157543700381"
 			tasks: [{
 				id: "5E2AB55806485CE4"
@@ -150,6 +161,10 @@
 		}
 		{
 			dependencies: ["52E1157543700381"]
+			description: [
+				"Cell WorkbenchでJEIから無限に増やしたいアイテムをドラッグアンドドロップで設定できます。"
+				"Chemicalと言いながらアイテムも設定できるのは秘密"
+			]
 			id: "3C7E406B50EA5830"
 			tasks: [{
 				id: "45EF1FD9CA3E9AF0"
@@ -161,6 +176,10 @@
 		}
 		{
 			dependencies: ["52E1157543700381"]
+			description: [
+				"Cell WorkbenchでJEIから無限に増やしたいアイテムをドラッグアンドドロップで設定できます。"
+				"Fluidと言いながらアイテムも設定できるのは秘密"
+			]
 			id: "4D870C3E99599DC9"
 			tasks: [{
 				id: "3775C4E3DA9BFDD5"
@@ -175,14 +194,43 @@
 				"3C7E406B50EA5830"
 				"4D870C3E99599DC9"
 			]
+			description: ["入手おめでとーーーーこれにてこのモッドパックは攻略完了です。対戦ありがとうございました"]
 			id: "436F4ECFDC95719C"
+			rewards: [
+				{
+					count: 64
+					id: "387923C6F61BE34A"
+					item: "mekanism:yellow_cake_uranium"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6C0D35D2EFFF11C0"
+					item: "minecraft:cake"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 4.0d
 			tasks: [{
 				id: "0C23D43EF16EA4DD"
 				item: "ae2:creative_item_cell"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -14.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["52E1157543700381"]
+			description: ["Functional Storage用の無限引き出し"]
+			id: "6B1C3C29D0AB4F7C"
+			tasks: [{
+				id: "02BACCDAE55951B8"
+				item: "functionalstorage:creative_vending_upgrade"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
 		}
 	]
 	title: "創造者のアイテム"
