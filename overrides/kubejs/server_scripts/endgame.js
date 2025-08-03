@@ -160,7 +160,7 @@ event.shaped(
     ],
     {
       A: 'farmindustry:valine_3g_quintuple_compressed',
-      B: Item.of('mekanism:ultimate_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:256000,FluidName:"farmindustry:liquid_fertilizer_tier5"}}],Items:[]}}').weakNBT(),
+      B: Item.of('mekanism:elite_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:128000,FluidName:"farmindustry:liquid_fertilizer_tier5"}}],Items:[]}}').weakNBT(),
       C: 'farmindustry:ultimate_valine_3g',
       D: 'farmindustry:devil_valine_3g',
       E: 'farmindustry:ultimate_valine_3g_ingot',
